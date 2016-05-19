@@ -1,0 +1,88 @@
+.header__wrapper {
+  width: 100%;
+  //background: $header-color;
+
+  header {
+    width: $width-phone-wrapper;
+    height: $height-phone-fs;
+    margin: 0 auto;
+    background: $header-url-background;
+
+    .account {
+      margin: 0 auto;
+      width: 182px;
+      height: 36px;
+
+      .btn-account {
+        display: block;
+        float: left;
+        margin-top: 20px;
+        width: 90px;
+        height: 36px;
+        border: 2px solid transparent;
+        border-radius: 18px;
+        background: transparent;
+
+        &:hover {
+          border: 2px solid $header-color;
+        }
+
+        span {
+          color: $header-color;
+          font: {
+            family: $font-family-MontReg;
+            size: 14px;
+            weight: 700;
+          }
+        }
+      }
+    }
+    img {
+      margin: 119px 72px 0;
+    }
+    h1 {
+      margin: 35px auto 0;
+      width: 300px;
+      height: 59px;
+      color: $header-color;
+      text: {
+        transform: uppercase;
+        align: center;
+      }
+      font: {
+        family: $font-family-MontReg;
+        size: $h1;
+        weight: 700;
+      }
+    }
+
+    h3 {
+      margin: 20px auto 0;
+      width: 240px;
+      height: 36px;
+      color: $header-color;
+      text-align: center;
+
+      font: {
+        family: "RobotoThin";
+        size: $h3;
+        weight: 300;
+      }
+    }
+
+    #find {
+      margin: 20px;
+      width: 280px;
+      height: 40px;
+      background-color: #ff4e50;
+      border-radius: 20px;
+      border: none;
+      span {
+        color: #fff;
+        font-family: $font-family-MontReg;
+        font-size: $span14;
+        font-weight: 700;
+      }
+    }
+  }
+}

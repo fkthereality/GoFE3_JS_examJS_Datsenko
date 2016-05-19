@@ -1,0 +1,116 @@
+
+footer{
+  width: 320px;
+  height: 189px;
+  margin: 0 auto;
+}
+.footer__wrapper{
+  width: 196px;
+  height: 189px;
+  margin: 0 auto;
+}
+
+
+.footer__logo{
+  width: 142px;
+  height: 15px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  margin-top: 16px;
+}
+.company{
+  width: 68px;
+  height: 15px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  //  display: inline-block;
+  text-align: center;
+
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -webkit-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -ms-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+
+}
+ul#menu li {
+  display: inline;
+  padding-left: 9px;
+}
+
+.footer__menu_liStart{
+  padding-left: 0px;
+}
+ul#menu li a {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.714;
+  -moz-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -webkit-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -ms-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  //padding-right: 13px;
+  text-decoration: none;
+  margin: 0 auto;
+
+}
+.menu{
+  width: 196px;
+  height: 15px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  margin-left: 0px;
+
+  padding-left: 0px;
+
+
+}
+
+.footer__partners{
+  width: 59px;
+  height: 12px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -webkit-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  -ms-transform: matrix( 0.99843692672654,0,0,1.00111054125503,0,0);
+  margin-bottom: 19px;
+
+  // background-color: yellow;
+}
+.footer__logo_designed{
+  width: 122px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+body {
+  display: block;
+  margin: 0;
+}
+img{
+  padding:0;
+  margin:0;
+}
+h3{
+  margin:0px;
+}
+
+li{
+  list-style:none;
+  padding-top: 0px;
+}
+ul#menu{
+
+  padding-left: 0px;
+
+}

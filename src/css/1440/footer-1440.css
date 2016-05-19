@@ -1,0 +1,90 @@
+.footer__wrapper {
+  width: 1440px;
+  height: 123px;
+  margin-bottom: 33px;
+  padding-top: 35px; }
+
+.footer {
+  width: 1440px;
+  height: 191px;
+  margin: 0;
+  margin-top: 0px; }
+
+.footer__logo {
+  width: 143px;
+  height: 123px;
+  /*margin: 0 auto;
+  margin-bottom: 18px;
+*/
+  float: left;
+  margin-left: 264px; }
+
+ul {
+  padding-left: 12px;
+  padding-top: 1px;
+  margin-top: 0px; }
+
+li {
+  list-style: none;
+  padding-top: 1px; }
+
+ul#menu li a {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.714;
+  text-align: left;
+  text-decoration: none; }
+
+.company {
+  /*width: 768px;
+  display: inline-block;
+  text-align: center;
+*/
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left; }
+
+.footer__menu {
+  float: left;
+  width: 70px;
+  height: 123px;
+  margin-left: 97px; }
+
+h3 {
+  margin: 0px; }
+
+.footer__partners {
+  float: left;
+  width: 59px;
+  height: 123px;
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 92px; }
+
+.footer__logo_designed {
+  float: left;
+  width: 110px;
+  height: 123px;
+  margin-left: 370px; }
+
+body {
+  display: block;
+  margin: 0; }
+
+img {
+  padding: 0;
+  margin: 0; }
+
+/*# sourceMappingURL=footer-1440.css.map */
