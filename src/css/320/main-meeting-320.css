@@ -1,0 +1,86 @@
+.hidden {
+  height: 0;
+  overflow: hidden; }
+
+.meet__wrapper {
+  width: 320px;
+  height: 1053px;
+  margin: 0 auto; }
+
+.meet__header {
+  width: 320px;
+  height: 63px;
+  margin: 0 auto; }
+
+.meet__header-h3 {
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(1.00019, 0, 0, 0.99887, 0, 0);
+  -webkit-transform: matrix(1.00019, 0, 0, 0.99887, 0, 0);
+  -ms-transform: matrix(1.00019, 0, 0, 0.99887, 0, 0); }
+
+.meet__block {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 27px; }
+
+.meet__img {
+  width: 122px;
+  height: 123px;
+  margin: 0 auto;
+  margin-bottom: 19px; }
+
+.meet__name {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0);
+  -webkit-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0);
+  -ms-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0); }
+
+.meet__description {
+  width: 320px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #666666;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0);
+  -webkit-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0);
+  -ms-transform: matrix(1.00052, 0, 0, 0.99798, 0, 0); }
+
+.meet__button {
+  width: 280px;
+  height: 41px;
+  margin: 0 auto; }
+
+body {
+  display: block;
+  margin: 0; }
+
+img {
+  padding: 0;
+  margin: 0; }
+
+h3 {
+  margin: 0px; }
+
+li {
+  list-style: none;
+  padding-top: 0px; }
+
+ul#menu {
+  padding-left: 0px; }
+
+/*# sourceMappingURL=main-meeting-320.css.map */

@@ -9,7 +9,7 @@ body {
     height: 700px;
     padding-top: 38px;
     color: #ffffff;
-    background: url(../img/promo__bg.jpg) 50% 50% no-repeat;
+    background: url(img/promo__bg.jpg) 50% 50% no-repeat;
     background-size: cover; }
 
 .promo__wrap {
