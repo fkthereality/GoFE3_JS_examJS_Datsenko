@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Слайдер на чистом CSS</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel='stylesheet' href="dest/css/768/slider-768.css" type="text/css"/>
+</head>
+
+<body>
+
+<div class="slider_wrapper"> <!-- SLIDER_WRAPPER  -->
+
+
+	<input checked type=radio name=respond id=desktop />
+	<input type=radio name=respond id=tablet />
+	<input type=radio name=respond id=mobile />
+	<article id=slider>
+		
+
+		<!-- MaxWidth Options -->
+		
+		<div class=respond>
+		
+			<label class=desktop for=desktop></label>
+			<label class=tablet for=tablet></label>
+			<label class=mobile for=mobile></label>
+			<p><strong>Важно:</strong> Если вы хотите изменить размер окна вручную, настройте на разрешение рабочего стола. Или вы можете просто щёлкнуть по значку.</p>
+		
+		</div> <!-- .respond -->
+		
+	
+		<!-- Slider Setup -->
+	
+		<input checked type=radio name=slider id=slide1 />
+		<input type=radio name=slider id=slide2 />
+		<input type=radio name=slider id=slide3 />
+		<input type=radio name=slider id=slide4 />
+		<input type=radio name=slider id=slide5 />
+	
+	
+		<!-- The Slider -->
+
+		
+		<div id=slides>
+		
+			<div id=overflow>
+			
+				<div class=inner>
+				
+					<article>
+						<div class=info><h3>Cloud Dragon</h3> by <a href="http://voyager3.tumblr.com">Brendan Zabarauskas</a></div>
+						<img src="images/CouldDragonByBjzaba.png" />
+					</article>
+
+					
+					<article>
+						<div class=info><h3>Mountain Fort</h3> by <a href="http://voyager3.tumblr.com">Brendan Zabarauskas</a></div>
+						<img src="images/MountainFortByBjzaba.png" />
+					</article>
+					
+					<article>
+						<div class=info><h3>Mountain Outpost</h3> by <a href="http://voyager3.tumblr.com">Brendan Zabarauskas</a></div>
+
+						<img src="images/MountainOutpostByBjzaba.png" />
+					</article>
+					
+					<article>
+						<div class=info><h3>Cliffs</h3> by <a href="http://voyager3.tumblr.com">Brendan Zabarauskas</a></div>
+						<img src="images/CliffsByBjzaba.png" />
+					</article>
+					
+					<article>
+
+						<div class=info><h3>Hill Fort</h3> by <a href="http://voyager3.tumblr.com">Brendan Zabarauskas</a></div>
+						<img src="images/HillFortByBjzaba.png" />
+					</article>
+					
+				</div> <!-- .inner -->
+				
+			</div> <!-- #overflow -->
+		
+		</div> <!-- #slides -->
+
+	
+	
+		<!-- Controls and Active Slide Display -->
+	
+		<div id=controls>
+
+			<label for=slide1></label>
+			<label for=slide2></label>
+			<label for=slide3></label>
+			<label for=slide4></label>
+			<label for=slide5></label>
+		
+		</div> <!-- #controls -->
+
+		
+		<div id=active>
+
+			<label for=slide1></label>
+			<label for=slide2></label>
+			<label for=slide3></label>
+			<label for=slide4></label>
+			<label for=slide5></label>
+			
+		</div> <!-- #active -->
+</article>
+
+</div>
+<!-- END OF SLIDER_WRAPPER  -->
+
+</body>
+</html>

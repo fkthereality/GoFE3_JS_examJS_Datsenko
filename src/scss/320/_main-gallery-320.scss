@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+	.gallery {
+		width: 320px;
+		height: auto;
+		margin-top: 110px;
+		.gallery__headline {
+			color: #333;
+			font-family: $MSRegular;
+			font-size: 22px;
+			font-weight: 700;
+			text-align: center;
+			letter-spacing: 0.005em;
+			line-height: 1.2em;
+			margin-bottom: 4px;
+		}
+	}
+	/* ---------------------------------Masonry---------------------*/
+	.grid {
+		width: 320px;
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+	}
+	.grid-item {
+		width: 300px;
+		background-color: #fff;
+		border-radius: 4px;
+		display: inline-block;
+		margin-top: 10px;
+		margin-left: 10px;
+		overflow: hidden;
+		position: relative;
+	}
+	.grid-item img {
+		width: 100%;
+	}
+	.topic-of-photo {
+		position: absolute;
+		top: 30%;
+		left: 50px;
+		font-family: $MSRegular;
+		font-size: 22px;
+		font-weight: 700;
+		color: #fff;
+	}
+	#gallery-id:after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+	}
+}

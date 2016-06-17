@@ -1,0 +1,137 @@
+@media screen and (max-width: 767px) {
+.meeting {
+	a {
+		text-decoration: none;
+	}
+	width: 320px;
+	height: 980px;
+	margin: 0 auto;
+	.meeting__headline {
+		color: #333;
+		width: 265px;
+		margin: 30px auto 0;
+		text-align: center;
+		text-indent: -5px;
+		font-family: $MSRegular;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 1.2em;
+		letter-spacing: 0.005em;
+	}
+
+
+	.meeting__partner {
+		width: 300px;
+		height: 229px;
+		position: relative;
+
+		.meeting__partner-photo{
+			width: 120px;
+			height: 120px;
+			margin-left: 90px;
+			display: inline-block;
+		}
+		.meeting__partner-logo{
+			position: absolute;
+			width: 41px;
+			height: 41px;
+			top: 85px;
+			right: 84px;
+
+		}
+		.meeting__partner-name {
+			margin-top: 19px;
+			color: #333;
+			font-family: $MSRegular;
+			font-size: 14px;
+			font-weight: 700;
+			text-align: center;
+		}
+		.meeting__partner-about {
+			margin-top: 14px;
+			padding: 0 40px;
+			width: 222px;
+			color: #666;
+			font-family: $RobotoRegular;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 1.2;
+			text-align: center;
+		}
+	}
+
+	.partner-1 {
+		margin-top: 16px;
+		margin-left: 9px;
+		.meeting__partner-photo {
+			background: url(../img/partner-1.png);
+		}
+		.meeting__partner-logo{
+			background: url(../img/partner-logo-1.png);
+		}
+	}
+
+	.partner-2 {
+		margin: 0 auto;
+		.meeting__partner-photo {
+			background: url(../img/partner-3.png);
+		}
+		.meeting__partner-logo{
+			background: url(../img/partner-logo-3.png);
+		}
+	}
+
+	.partner-3 {
+		margin: 33px 0 0 8px;
+		.meeting__partner-photo {
+			background: url(../img/partner-2.png);
+		}
+		.meeting__partner-logo{
+			background: url(../img/partner-logo-2.png);
+		}
+	}
+
+	.partner-4 {
+		margin: 0 0 0 8px;
+		.meeting__partner-photo {
+			background: url(../img/partner-4.png);
+		}
+		.meeting__partner-logo{
+			background: url(../img/partner-logo-4.png);
+		}
+	}
+
+	.metting__form {
+		width: 280px;
+		height: 40px;
+		display: block;
+		margin: 0 auto;
+
+		button{
+			color: #ff4e50;
+			font-family: $MSRegular;
+			font-size: 14px;
+			font-weight: 700;
+			height: 40px;
+			width: 280px;
+			border-radius: 20px;
+			background-color: transparent;
+			line-height: 40px;
+			text-align: center;
+			border: 2px solid #ff4e50;
+			&:hover{
+				box-shadow: 0 0 3px 3px hsla(0, 0, 0, 0.2);
+				cursor: pointer;
+				text-shadow:  1px 2px 2px hsla(0, 0, 0, 0.2);
+			}
+		}
+	}
+}
+// #gallery-id::before {
+// 	content: ".";
+//   display: block;
+//   clear: both;
+//   visibility: hidden;
+//   height: 50px;
+// }
+}

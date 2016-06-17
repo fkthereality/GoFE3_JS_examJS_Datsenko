@@ -1,0 +1,104 @@
+@media screen and (min-width: 1440px) {
+	.gallery {
+		width: 940px;
+		height: auto;
+		margin: 0 auto;
+		padding: 0 250px;
+		.gallery__headline {
+			color: #333;
+			font-family: $MSRegular;
+			font-size: 22px;
+			font-weight: 700;
+			text-align: center;
+			margin-bottom: 16px;
+			letter-spacing: 0.01em;
+		}
+	}
+	/* ---------------------------------Masonry---------------------*/
+	.grid {
+		width: 940px;
+		column-count: 3;
+		column-gap: 20px;
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		-webkit-column-gap: 20px;
+		-moz-column-gap: 20px;
+	}
+	.grid-item {
+		width: 300px;
+		display: inline-block;
+		margin-top: 20px;
+		overflow: hidden;
+		position: relative;
+	}
+	.grid-item img {
+		width: 100%;
+	}
+	.topic-of-photo {
+		position: absolute;
+		top: 30%;
+		left: 50px;
+		font-family: $MSRegular;
+		font-size: 22px;
+		font-weight: 700;
+		color: #fff;
+	}
+	//---------------------------------- form --------------------------------
+	.form_section {
+		width: 460px;
+		height: 154px;
+		display: block;
+		margin: 94px auto 100px;
+	}
+	.form_hgroup {
+		width: 460px;
+		margin: 0 auto;
+		display: block;
+	}
+	.form_headline {
+		color: #333;
+		text-align: center;
+		font-family: $MSRegular;
+		font-size: 22px;
+		font-weight: 700;
+		letter-spacing: 0.02em;
+	}
+	.form_headline_low {
+		margin-top: 35px;
+		color: #333;
+		text-align: center;
+		font-family: $RobotoRegular;
+		font-size: 18px;
+		font-weight: 300;
+	}
+	#search_img {
+		width: 240px;
+		height: 36px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: 0 1px 0 #eee;
+		color: #999;
+		font-family: $RobotoRegular;
+		font-size: 14px;
+		font-weight: 300;
+		margin: 41px 0 20px 20px;
+		display: block;
+		float: left;
+		text-indent: 18px;
+	}
+	#search_submit {
+		width: 160px;
+		height: 40px;
+		background-color: #ff4e50;
+		border-radius: 20px;
+		border: none;
+		color: #fff;
+		font-family: $MSRegular;
+		font-size: 14px;
+		font-weight: 700;
+		display: block;
+		float: left;
+		margin: 40px 10px 20px;
+	}
+}

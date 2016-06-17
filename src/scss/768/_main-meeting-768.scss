@@ -1,0 +1,123 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .meeting {
+      a {
+        text-decoration: none;
+      }
+        width: 768px;
+        height: 727px;
+        margin: 0 auto;
+        position: relative;
+        .meeting__headline {
+            color: #333;
+            margin-top: 98px;
+            text-align: center;
+            font-family: $MSRegular;
+            letter-spacing: 0.005em;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .meeting__partner {
+            width: 236px;
+            height: 240 px;
+            position: relative;
+            .meeting__partner-photo {
+                width: 120px;
+                height: 120px;
+                margin-left: 58px;
+                display: inline-block;
+            }
+            .meeting__partner-logo {
+                position: absolute;
+                width: 41px;
+                height: 41px;
+                top: 85px;
+                right: 53px;
+            }
+            .meeting__partner-name {
+                margin-top: 18px;
+                color: #333;
+                font-family: $MSRegular;
+                font-size: 14px;
+                font-weight: 700;
+                text-align: center;
+            }
+            .meeting__partner-about {
+                margin-top: 15px;
+                width: 216px;
+                color: #666;
+                font-family: $RobotoRegular;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.2;
+                // letter-spacing: -0.005em;
+                text-align: center;
+            }
+        }
+        .partner-1 {
+            margin-left: 139px;
+            margin-top: 34px;
+            float: left;
+            .meeting__partner-photo {
+                background: url("../img/partner-1.png");
+            }
+            .meeting__partner-logo {
+                background: url("../img/partner-logo-1.png");
+            }
+        }
+        .partner-2 {
+            margin-left: 20px;
+            margin-top: 34px;
+            float: left;
+            .meeting__partner-photo {
+                background: url("../img/partner-3.png");
+            }
+            .meeting__partner-logo {
+                background: url("../img/partner-logo-3.png");
+            }
+        }
+        .partner-3 {
+            margin-left: 139px;
+            margin-top: 25px;
+            float: left;
+            .meeting__partner-photo {
+                background: url("../img/partner-2.png");
+            }
+            .meeting__partner-logo {
+                background: url("../img/partner-logo-2.png");
+            }
+        }
+        .partner-4 {
+            margin-left: 20px;
+            margin-top: 25px;
+            float: left;
+            .meeting__partner-photo {
+                background: url("../img/partner-4.png");
+            }
+            .meeting__partner-logo {
+                background: url("../img/partner-logo-4.png");
+            }
+        }
+        .metting__form {
+            button {
+                color: #ff4e50;
+                margin-left: 288px;
+                margin-top: 72px;
+                font-family: $MSRegular;
+                font-size: 14px;
+                font-weight: 700;
+                height: 40px;
+                width: 192px;
+                border-radius: 20px;
+                background-color: transparent;
+                line-height: 40px;
+                text-align: center;
+                border: 2px solid #ff4e50;
+                &:hover {
+                    box-shadow: 0 0 3px 3px hsla(0, 0, 0, 0.2);
+                    cursor: pointer;
+                    text-shadow: 1px 2px 2px hsla(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+}
