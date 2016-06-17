@@ -1,38 +1,3 @@
-var gulp        = require('gulp'),
-    watch       = require('gulp-watch');
-var uglify      = require('gulp-uglify');
-const imagemin  = require('gulp-imagemin');
-const sass      = require('gulp-ruby-sass');
-const input     = 'src/scss/**/*.scss';
-const output    = 'dist/css';
-
-
-gulp.task('compress', function() {
-  return gulp.src('src/js/*.js')
-    .pipe(uglify())
-    .pipe(gulp.dest('dist/js'));
-});
-
-gulp.task('imagemin', function () {
-  return 	gulp.src('src/img/*')
-  		.pipe(imagemin())
-  		.pipe(gulp.dest('dist/img'));
-});
-
-gulp.task('sass', function () {
-  return sass(input)
-    .on('error', sass.logError)
-    .pipe(gulp.dest(output));
-});
-
-gulp.task('watch', function() {
-    gulp.watch(input, ['sass']);
-});
-
-// gulp.start('sass'); [ 'watch'],
-gulp.task('default', [ 'watch'], function functionName() {
-  gulp.start('sass');
-});
 
 'use strict';
 
@@ -48,21 +13,7 @@ var livereload = require('gulp-livereload');
 
 
 
-// блок с настройками компонентов
-// здесь я храню настройки для задач
-// удалил отсюда все кроме scripts для наглядности
-var components = {
-    scripts: {
-        source: sourceDir + '/core/application.js',
-        dest: destDir,
-        watch: sourceDir + '/core/**/*.js',
-        options: {
-            paths: ['./node_modules', sourceDir],
-            debug: false,
-            fullPaths: true
-        }
-    }
-};
+
 
 /**
  * Обработчик ошибок.
@@ -96,3 +47,39 @@ gulp.task('watch:scripts', ['scripts'], function () {
 
 gulp.task('default', ['scripts']);
 gulp.task('watch', ['watch:scripts']);
+
+var gulp        = require('gulp'),
+    watch       = require('gulp-watch');
+var uglify      = require('gulp-uglify');
+const imagemin  = require('gulp-imagemin');
+const sass      = require('gulp-ruby-sass');
+const input     = 'src/scss/**/*.scss';
+const output    = 'dist/css';
+
+
+gulp.task('compress', function() {
+    return gulp.src('src/js/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('imagemin', function () {
+    return 	gulp.src('src/img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/img'));
+});
+
+gulp.task('sass', function () {
+    return sass(input)
+        .on('error', sass.logError)
+        .pipe(gulp.dest(output));
+});
+
+gulp.task('watch', function() {
+    gulp.watch(input, ['sass']);
+});
+
+// gulp.start('sass'); [ 'watch'],
+gulp.task('default', [ 'watch'], function functionName() {
+    gulp.start('sass');
+});
