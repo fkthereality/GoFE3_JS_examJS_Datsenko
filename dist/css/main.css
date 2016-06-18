@@ -59,28 +59,28 @@ table {
   body {
     background-color: #fff; }
 
-  .main__wrapper {
+  body {
     width: 1440px;
     margin: 0 auto;
     background: #fff; }
 
-  .header__wrapper {
+  .header {
     width: 100%;
     height: 700px;
     background: url(../img/header__bg-wide.jpg) no-repeat;
     background-position: 50% 0; }
-    .header__wrapper header {
+    .header header {
       position: relative;
       width: 1440px;
       height: 700px;
       margin: 0 auto; }
-      .header__wrapper header .account {
+      .header header .form {
         float: right;
         margin-right: 248px;
         margin-top: 18px;
         width: 182px;
         height: 36px; }
-        .header__wrapper header .account .btn-account {
+        .header header .form .form__button {
           display: block;
           float: left;
           margin-top: 20px;
@@ -89,19 +89,19 @@ table {
           border: 2px solid transparent;
           border-radius: 18px;
           background: transparent; }
-          .header__wrapper header .account .btn-account:hover {
+          .header header .form .form__button:hover {
             border: 2px solid #fff;
             cursor: pointer; }
-          .header__wrapper header .account .btn-account span {
+          .header header .form .form__button span {
             color: #fff;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 14px;
             font-weight: 700; }
-      .header__wrapper header img {
+      .header header img {
         position: absolute;
         top: 46px;
         left: 250px; }
-      .header__wrapper header h1 {
+      .header header h1 {
         margin: 0 auto;
         padding-top: 214px;
         width: 510px;
@@ -114,7 +114,7 @@ table {
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 52px;
         font-weight: 600; }
-      .header__wrapper header h3 {
+      .header header h3 {
         margin: 51px auto 0;
         width: 420px;
         height: 24px;
@@ -124,7 +124,7 @@ table {
         font-family: "RobotoRegular", Arial, sans-serif;
         font-size: 24px;
         font-weight: 300; }
-      .header__wrapper header #find {
+      .header header .header__button_search {
         display: block;
         margin: 38px auto 0;
         width: 225px;
@@ -132,12 +132,12 @@ table {
         background-color: #ff4e50;
         border-radius: 20px;
         border: none; }
-        .header__wrapper header #find span {
+        .header header .header__button_search span {
           color: #fff;
           font-family: "MontSerratRegular", Arial, sans-serif;
           font-size: 14px;
           font-weight: 700; }
-        .header__wrapper header #find:hover {
+        .header header .header__button_search:hover {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
@@ -549,7 +549,7 @@ table {
   body {
     background-color: #FFF; }
 
-  .main__wrapper {
+  body {
     width: 320px;
     margin: 0 auto;
     background: #fff; }
@@ -557,19 +557,19 @@ table {
   .main__wrapper {
     width: 320px; }
 
-  .header__wrapper {
+  .header {
     width: 100%;
     background: url(../img/header__bg-mobile.jpg) no-repeat;
     background-position: 50% 0; }
-    .header__wrapper header {
+    .header header {
       width: 320px;
       height: 540px;
       margin: 0 auto; }
-      .header__wrapper header .account {
+      .header header .form {
         width: 320px;
         height: 32px;
         padding: 0 60px; }
-        .header__wrapper header .account .btn-account {
+        .header header .form .form__button {
           display: block;
           float: left;
           margin-top: 20px;
@@ -578,19 +578,18 @@ table {
           border: 2px solid transparent;
           border-radius: 18px;
           background: transparent;
-          cursor: pointer; }
-          .header__wrapper header .account .btn-account #sign-up {
-            margin-left: 0; }
-          .header__wrapper header .account .btn-account:hover {
+          cursor: pointer;
+          margin-left: 0; }
+          .header header .form .form__button:hover {
             border: 2px solid #fff; }
-          .header__wrapper header .account .btn-account span {
+          .header header .form .form__button span {
             color: #fff;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 14px;
             font-weight: 700; }
-      .header__wrapper header img {
+      .header header img {
         margin: 115px 70px 0 71px; }
-      .header__wrapper header h1 {
+      .header header h1 {
         margin: 29px auto 0;
         width: 300px;
         height: 59px;
@@ -602,7 +601,7 @@ table {
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 30px;
         font-weight: 700; }
-      .header__wrapper header h3 {
+      .header header h3 {
         margin: 22px auto 0;
         width: 240px;
         height: 36px;
@@ -613,19 +612,19 @@ table {
         font-family: "RobotoRegular", Arial, sans-serif;
         font-size: 18px;
         font-weight: 300; }
-      .header__wrapper header #find {
+      .header header .header__button_search {
         margin: 22px 20px 0;
         width: 280px;
         height: 40px;
         background-color: #ff4e50;
         border-radius: 20px;
         border: none; }
-        .header__wrapper header #find span {
+        .header header .header__button_search span {
           color: #fff;
           font-family: "MontSerratRegular", Arial, sans-serif;
           font-size: 14px;
           font-weight: 700; }
-        .header__wrapper header #find:hover {
+        .header header .header__button_search:hover {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
@@ -1040,26 +1039,26 @@ table {
   body {
     background-color: #fff; }
 
-  .main__wrapper {
+  body {
     width: 768px;
     margin: 0 auto;
     background: #fff; }
 
-  .header__wrapper {
+  .header {
     width: 100%;
     background: url(../img/header__bg-wide.jpg) no-repeat;
     background-position: 50% 0; }
-    .header__wrapper header {
+    .header header {
       position: relative;
       width: 768px;
       height: 700px;
       margin: 0 auto; }
-      .header__wrapper header .account {
+      .header header .form {
         margin-left: 544px;
         padding-top: 18px;
         width: 182px;
         height: 36px; }
-        .header__wrapper header .account .btn-account {
+        .header header .form .form__button {
           display: block;
           float: left;
           margin-top: 20px;
@@ -1069,19 +1068,19 @@ table {
           border: 2px solid transparent;
           border-radius: 18px;
           background: transparent; }
-          .header__wrapper header .account .btn-account:hover {
+          .header header .form .form__button:hover {
             border: 2px solid #fff;
             cursor: pointer; }
-          .header__wrapper header .account .btn-account span {
+          .header header .form .form__button span {
             color: #fff;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 14px;
             font-weight: 700; }
-      .header__wrapper header img {
+      .header header img {
         position: absolute;
         top: 46px;
         left: 50px; }
-      .header__wrapper header h1 {
+      .header header h1 {
         margin: 165px auto 0;
         width: 510px;
         height: 100px;
@@ -1092,7 +1091,7 @@ table {
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 52px;
         font-weight: 700; }
-      .header__wrapper header h3 {
+      .header header h3 {
         margin: 48px auto 0;
         width: 420px;
         height: 24px;
@@ -1102,7 +1101,7 @@ table {
         font-family: "RobotoRegular", Arial, sans-serif;
         font-size: 24px;
         font-weight: 300px; }
-      .header__wrapper header #find {
+      .header header .header__button_search {
         display: block;
         margin: 35px auto 0;
         width: 225px;
@@ -1110,12 +1109,12 @@ table {
         background-color: #ff4e50;
         border-radius: 20px;
         border: none; }
-        .header__wrapper header #find span {
+        .header header .header__button_search span {
           color: #fff;
           font-family: "MontSerratRegular", Arial, sans-serif;
           font-size: 14px;
           font-weight: 700; }
-        .header__wrapper header #find:hover {
+        .header header .header__button_search:hover {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }

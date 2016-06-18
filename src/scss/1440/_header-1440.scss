@@ -2,12 +2,13 @@
     body {
         background-color: #fff;
     }
-    .main__wrapper {
+     body {
         width: 1440px;
         margin: 0 auto;
         background: #fff;
     }
-    .header__wrapper {
+
+    .header {
         width: 100%;
         height: 700px;
         background: $headerWideBG;
@@ -17,13 +18,13 @@
             width: 1440px;
             height: 700px;
             margin: 0 auto;
-            .account {
+            .form {
                 float: right;
                 margin-right: 248px;
                 margin-top: 18px;
                 width: 182px;
                 height: 36px;
-                .btn-account {
+                .form__button {
                     display: block;
                     float: left;
                     margin-top: 20px;
@@ -82,7 +83,7 @@
                     weight: 300;
                 }
             }
-            #find {
+            .header__button_search {
                 display: block;
                 margin: 38px auto 0;
                 width: 225px;

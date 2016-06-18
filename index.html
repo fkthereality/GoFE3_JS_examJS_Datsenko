@@ -5,15 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=9">
-  <title>Exam work</title>
+  <title>GoFE3_JS_exam_Datsenko</title>
 
-  <script src="lib/jquery-1.12.4.min.js"></script>
-  <script src="lib/jquery.bxslider.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js">
-  </script>
-  <script src="dist/js/data.js"></script>
-  <script src="dist/js/loader.js"></script>
-
+ 
    <link rel="stylesheet"  href="dist/css/main.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,27 +18,27 @@
 
 <body>
 
-  <div class="header__wrapper">
+  <div class="header">
     <header>
-      <div class="account">
-        <button type="button" id="login" class="btn-account">
+      <div class="form">
+        <button type="button" class="form__button">
           <span>Log in</span>
         </button>
-        <button type="button" id="sign-up" class="btn-account">
+        <button type="button" class="form__button">
           <span>Sign up</span>
         </button>
       </div>
       <img src="dist/img/logo.png" alt="logo">
       <h1>Share your holiday dreams</h1>
       <h3>And find the perfect partner to full it</h3>
-      <button type="button" id="find">
+      <button type="button" class="header__button_search">
         <span>Find your holiday partner</span>
       </button>
     </header>
   </div>
 
-  <div class="main__wrapper">
-    <div class="slider-wrapper item">
+  
+    <div class="slider-wrapper">
       <h3 class="slider__headline">How Urlaubsglück works?</h3>
 
       <div class="first-slider slider" >
@@ -180,7 +174,7 @@
       <input type="button" value="Search partners" id="search_submit">
     </form>
 
-  </div>
+  
 
   <div class="footer__wrapper">
     <footer>
@@ -205,6 +199,14 @@
       </div>
     </footer>
   </div>
+
+  <script src="lib/jquery-1.12.4.min.js"></script>
+  <script src="lib/jquery.bxslider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js">
+  </script>
+  <script src="dist/js/data.js"></script>
+  <script src="dist/js/loader.js"></script>
+
   <script type="text/javascript">
   $(document).ready(function(){
     $('.bxslider').bxSlider({

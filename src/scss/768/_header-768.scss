@@ -2,12 +2,12 @@
     body {
         background-color: #fff;
     }
-    .main__wrapper {
+    body {
         width: 768px;
         margin: 0 auto;
         background: #fff;
     }
-    .header__wrapper {
+    .header {
         width: 100%;
         background: $headerWideBG;
         background-position: 50% 0;
@@ -16,12 +16,12 @@
             width: 768px;
             height: 700px;
             margin: 0 auto;
-            .account {
+            .form {
                 margin-left: 544px;
                 padding-top: 18px;
                 width: 182px;
                 height: 36px;
-                .btn-account {
+                .form__button {
                     display: block;
                     float: left;
                     margin-top: 20px;
@@ -79,7 +79,7 @@
                     weight: 300px;
                 }
             }
-            #find {
+            .header__button_search {
                 display: block;
                 margin: 35px auto 0;
                 width: 225px;

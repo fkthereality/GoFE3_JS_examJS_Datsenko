@@ -2,7 +2,7 @@
     body {
         background-color: #FFF;
     }
-    .main__wrapper {
+    body {
         width: 320px;
         margin: 0 auto;
         background: #fff;
@@ -10,19 +10,19 @@
     .main__wrapper {
         width: 320px;
     }
-    .header__wrapper {
+    .header {
         width: 100%;
-        background: $haederMobileBG;
+        background: $headerMobileBG;
         background-position: 50% 0;
         header {
             width: 320px;
             height: 540px;
             margin: 0 auto;
-            .account {
+            .form {
                 width: 320px;
                 height: 32px;
                 padding: 0 60px;
-                .btn-account {
+                .form__button {
                     display: block;
                     float: left;
                     margin-top: 20px;
@@ -32,9 +32,8 @@
                     border-radius: 18px;
                     background: transparent;
                     cursor: pointer;
-                    #sign-up {
-                        margin-left: 0;
-                    }
+                    margin-left: 0;
+
                     &:hover {
                         border: 2px solid #fff;
                     }
@@ -82,7 +81,7 @@
                     weight: 300;
                 }
             }
-            #find {
+            .header__button_search {
                 margin: 22px 20px 0;
                 width: 280px;
                 height: 40px;
