@@ -1,9 +1,9 @@
 @media screen and (min-width: 1440px) {
-    .slider-wrapper {
+    .slider_wrapper {
         width: 960px;
         height: 558px;
         margin: 0 auto;
-        .slider__headline {
+        .slider__header {
             padding: 97px 0 0;
             text-align: center;
             color: #333;
@@ -73,7 +73,7 @@
             }
         }
     }
-    .first-slider {
+    .slider_step-1 {
         position: relative;
         .slider__content {
             .slider__content-note {
@@ -88,7 +88,7 @@
             }
         }
     }
-    .second-slider {
+    .slider_step-2 {
         position: relative;
         .slider__content {
             .slider__content-note {

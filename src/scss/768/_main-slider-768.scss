@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-    .slider-wrapper {
+    .slider_wrapper {
         width: 768px;
         height: 556px;
         margin: 0 auto;
     }
-    .slider__headline {
+    .slider__header {
         padding: 97px 0 0;
         text-align: center;
         text-indent: 7px;
@@ -76,7 +76,7 @@
             }
         }
     }
-    .first-slider {
+    .slider_step-1 {
         position: relative;
         .slider__content {
             .slider__content-note {
@@ -91,7 +91,7 @@
             }
         }
     }
-    .second-slider {
+    .slider_step-2 {
         position: relative;
         .slider__content {
             .slider__content-note {

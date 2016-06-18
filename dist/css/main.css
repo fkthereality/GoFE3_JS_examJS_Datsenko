@@ -142,44 +142,44 @@ table {
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
 @media screen and (min-width: 1440px) {
-  .slider-wrapper {
+  .slider_wrapper {
     width: 960px;
     height: 558px;
     margin: 0 auto; }
-    .slider-wrapper .slider__headline {
+    .slider_wrapper .slider__header {
       padding: 97px 0 0;
       text-align: center;
       color: #333;
       font-family: "MontSerratRegular", Arial, sans-serif;
       font-size: 22px;
       font-weight: 700; }
-    .slider-wrapper .slider {
+    .slider_wrapper .slider {
       display: inline-block;
       float: left;
       width: 300px;
       height: 403px;
       margin: 35px 10px 0; }
-      .slider-wrapper .slider ul {
+      .slider_wrapper .slider ul {
         margin: 0 auto;
         width: 300px;
         height: 403px;
         border-radius: 4px;
         overflow: hidden;
         position: relative; }
-        .slider-wrapper .slider ul li {
+        .slider_wrapper .slider ul li {
           display: inline-block;
           float: left; }
-      .slider-wrapper .slider .slider__content {
+      .slider_wrapper .slider .slider__content {
         position: absolute;
         width: 300px;
         height: 403px;
         top: 0; }
-        .slider-wrapper .slider .slider__content .slider__content-note {
+        .slider_wrapper .slider .slider__content .slider__content-note {
           width: 70px;
           height: 20px;
           background-color: #ff4e50;
           border-radius: 10px; }
-          .slider-wrapper .slider .slider__content .slider__content-note p {
+          .slider_wrapper .slider .slider__content .slider__content-note p {
             padding: 5px 0;
             text-indent: 14px;
             letter-spacing: 3px;
@@ -189,16 +189,16 @@ table {
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 10px;
             font-weight: 400; }
-        .slider-wrapper .slider .slider__content .slider__content-text {
+        .slider_wrapper .slider .slider__content .slider__content-text {
           width: 262px;
           height: 132px; }
-          .slider-wrapper .slider .slider__content .slider__content-text h5 {
+          .slider_wrapper .slider .slider__content .slider__content-text h5 {
             color: #fff;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 24px;
             font-weight: 700;
             line-height: 1.2em; }
-          .slider-wrapper .slider .slider__content .slider__content-text p {
+          .slider_wrapper .slider .slider__content .slider__content-text p {
             padding: 12px 0 10px;
             color: #ccc;
             font-family: "RobotoRegular", Arial, sans-serif;
@@ -206,24 +206,24 @@ table {
             font-weight: 300;
             line-height: 1.2em; }
 
-  .first-slider {
+  .slider_step-1 {
     position: relative; }
-    .first-slider .slider__content .slider__content-note {
+    .slider_step-1 .slider__content .slider__content-note {
       position: absolute;
       top: 230px;
       left: 20px; }
-    .first-slider .slider__content .slider__content-text {
+    .slider_step-1 .slider__content .slider__content-text {
       position: absolute;
       top: 267px;
       left: 19px; }
 
-  .second-slider {
+  .slider_step-2 {
     position: relative; }
-    .second-slider .slider__content .slider__content-note {
+    .slider_step-2 .slider__content .slider__content-note {
       position: absolute;
       top: 260px;
       left: 20px; }
-    .second-slider .slider__content .slider__content-text {
+    .slider_step-2 .slider__content .slider__content-text {
       position: absolute;
       top: 297px;
       left: 18px; }
@@ -629,12 +629,12 @@ table {
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
 @media screen and (max-width: 767px) {
-  .slider-wrapper {
+  .slider_wrapper {
     width: 320px;
     height: 820px;
     margin: 0 auto; }
 
-  .slider__headline {
+  .slider__header {
     padding: 37px 0 16px;
     text-align: center;
     color: #333;
@@ -688,28 +688,28 @@ table {
         font-size: 14px;
         font-weight: 300; }
 
-  .first-slider {
+  .slider_step-1 {
     margin: 0 auto 10px;
     width: 300px;
     height: 240px;
     position: relative; }
-    .first-slider .slider__content .slider__content-note {
+    .slider_step-1 .slider__content .slider__content-note {
       position: absolute;
       top: 69px;
       left: 20px; }
-    .first-slider .slider__content .slider__content-text {
+    .slider_step-1 .slider__content .slider__content-text {
       position: absolute;
       top: 111px;
       left: 20px; }
 
-  .second-slider {
+  .slider_step-2 {
     margin: 0 auto 10px;
     position: relative; }
-    .second-slider .slider__content .slider__content-note {
+    .slider_step-2 .slider__content .slider__content-note {
       position: absolute;
       top: 99px;
       left: 20px; }
-    .second-slider .slider__content .slider__content-text {
+    .slider_step-2 .slider__content .slider__content-text {
       position: absolute;
       top: 140px;
       left: 20px; }
@@ -1119,12 +1119,12 @@ table {
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .slider-wrapper {
+  .slider_wrapper {
     width: 768px;
     height: 556px;
     margin: 0 auto; }
 
-  .slider__headline {
+  .slider__header {
     padding: 97px 0 0;
     text-align: center;
     text-indent: 7px;
@@ -1188,24 +1188,24 @@ table {
           line-height: 1.5em;
           letter-spacing: 0.05em; }
 
-  .first-slider {
+  .slider_step-1 {
     position: relative; }
-    .first-slider .slider__content .slider__content-note {
+    .slider_step-1 .slider__content .slider__content-note {
       position: absolute;
       top: 214px;
       left: 20px; }
-    .first-slider .slider__content .slider__content-text {
+    .slider_step-1 .slider__content .slider__content-text {
       position: absolute;
       top: 250px;
       left: 20px; }
 
-  .second-slider {
+  .slider_step-2 {
     position: relative; }
-    .second-slider .slider__content .slider__content-note {
+    .slider_step-2 .slider__content .slider__content-note {
       position: absolute;
       top: 260px;
       left: 20px; }
-    .second-slider .slider__content .slider__content-text {
+    .slider_step-2 .slider__content .slider__content-text {
       position: absolute;
       top: 296px;
       left: 20px; }
