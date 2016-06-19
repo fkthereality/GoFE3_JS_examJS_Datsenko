@@ -43,11 +43,13 @@
       <h3 class="slider__header">How Urlaubsglück works?</h3>
     </header>
       <div class="slider slider_step-1" >
+<picture>
         <ul class="slider__images">
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
         </ul>
+</picture>
         <div class="slider__content">
           <div class="slider__content-note">
             <p>step 1</p>
@@ -70,11 +72,13 @@
 
 
       <div class="slider slider_step-2">
+<picture>
         <ul class="slider__images">
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
         </ul>
+</picture>
         <div class="slider__content">
           <div class="slider__content-note">
             <p>step 2</p>
@@ -96,11 +100,13 @@
 
 
       <div class="slider slider_step-3">
+<picture>
         <ul class="slider__images">
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
         </ul>
+</picture>
         <div class="slider__content">
           <div class="slider__content-note">
             <p>step 3</p>
@@ -131,15 +137,16 @@
 	</header>
     <a href="#">
       <div class="partners partners_section-1" >
+<picture>
         <div class="partners__avatar"></div>
         <div class="partners__status"></div>
-        <img src="dist/img/partner-logo-1.png" alt="" class="partners__status">
+</picture>
           <section>
     <header>
         <p class="partners__header">Bradley Hunter</p>
     </header>
              <article>    
-        <p class="meet__partner-about">
+        <p class="partners__article">
           Based in Chicago. I love playing tennis and loud music.
         </p>
              </article>
@@ -148,14 +155,16 @@
     </a>
     <a href="#">
       <div class="partners partners_section-2" >
+<picture>
         <div class="partners__avatar"></div>
         <div class="partners__status"></div>
+</picture>
           <section>
     <header>
         <p class="partners__header">Lucas Marsha</p>
     </header>
              <article> 
-        <p class="meet__partner-about">
+        <p class="partners__article">
           I get my inspiration from nature and objects around me.
           I have a passion to colours, typography and skateboards.
         </p>
@@ -165,14 +174,16 @@
     </a>
     <a href="#">
       <div class="partners partners_section-3" >
+<picture>
         <div class="partners__avatar"></div>
         <div class="partners__status"></div>
+</picture>
           <section>
     <header>
         <p class="partners__header">Heather Walker</p>
     </header>
              <article> 
-        <p class="meet__partner-about">
+        <p class="partners__article">
           I'm a happy person that loves cats and climbing on mountains.
         </p>
              </article> 
@@ -181,50 +192,49 @@
     </a>
     <a href="#">
       <div class="partners partners_section-4">
+<picture>
         <div class="partners__avatar"></div>
         <div class="partners__status"></div>
-        <img src="dist/img/partner-logo-4.png" alt="" class="partners__status">
+</picture>
           <section>
     <header>
         <p class="partners__header">Bradley Hunter</p>
     </header>
              <article> 
-        <p class="meet__partner-about">
+        <p class="partners__article">
           Based in Chicago. I love playing tennis and loud music.
         </p>
              </article> 
           </section>
       </div>
     </a>
-      <form action="#" class="meet__form">
+      <form action="#" class="meet__button">
         <button type="submit">See other partners</button>
       </form>
     </div>
 
 
-    <div class="gallery" id="gallery-id">
+    <div class="gallery" id="gallery-id"></div>
 
-    </div>
-
-    <form action="" class="form_section">
-      <hgroup class="form_hgroup">
+    <form action="" class="search">
+      <hgroup class="search__section">
     <header>      
-        <h5 class="form_headline">Discover holiday activity ideas</h5>
+        <h5 class="search__header">Discover holiday activity ideas</h5>
     </header>        
-        <h6 class="form_headline_low">
+        <h6 class="search__header_h6">
           Hi! What are your holiday interests?
         </h6>
       </hgroup>
-      <input type="text" placeholder="Enter your interests" id="search_img">
-      <input type="button" value="Search partners" id="search_submit">
+      <input class="search__input" type="text" placeholder="Enter your interests" >
+      <input class="search__button" type="button" value="Search partners" >
     </form>
 
   
 
-  <div class="footer__wrapper">
+  <div class="footer">
     <footer>
       <h5 class="footer__logo">URLAUBSGLÜCK</h5>
-      <div class="footer__list">
+      <div class="footer__menu">
         <h6>Company</h6>
        <nav>
         <ul>
@@ -235,29 +245,30 @@
         </ul>
        </nav>
       </div>
-      <div class="footer__list">
+      <div class="footer__menu">
         <h6>Partners</h6>
       </div>
-      <div class="designet">
+      <div class="footer__logo_designed">
         <a href="#">
           <p>Designed by</p>
-          <img src="dist/img/designet-by.png" alt="Areto development" class="design-logo">
+<picture>
+          <img src="dist/img/designet-by.png" class="design-logo">
+</picture>
         </a>
       </div>
     </footer>
   </div>
 
   <script src="lib/jquery-1.12.4.min.js"></script>
-  <script src="lib/jquery.bxslider.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js">
-  </script>
   <script src="dist/js/data.js"></script>
   <script src="dist/js/loader.js"></script>
+  <script src="lib/jquery.bxslider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 
   <script type="text/javascript">
   $(document).ready(function(){
     $('.slider__images').slider__images({
-      speed: 300,
+      speed: 100,
       pager: false
     });
   });

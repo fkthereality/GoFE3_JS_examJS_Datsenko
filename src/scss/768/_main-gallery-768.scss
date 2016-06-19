@@ -44,18 +44,18 @@
 		color: #fff;
 	}
 	//---------------------------------- form --------------------------------
-	.form_section {
+	.search {
 		width: 460px;
 		height: 154px;
 		display: block;
 		margin: 94px auto 100px;
 	}
-	.form_hgroup {
+	.search__section {
 		width: 460px;
 		margin: 0 auto;
 		display: block;
 	}
-	.form_headline {
+	.search__header {
 		color: #333;
 		text-align: center;
 		font-family: $MSRegular;
@@ -64,7 +64,7 @@
 		text-indent: 10px;
 		letter-spacing: 0.001em;
 	}
-	.form_headline_low {
+	.search__header_h6 {
 		color: #333;
 		text-align: center;
 		font-family: $RobotoRegular;
@@ -74,7 +74,7 @@
 		text-indent: 20px;
 		letter-spacing: -0.005em;
 	}
-	#search_img {
+	.search__input {
 		margin: 39px 0 20px 30px;
 		width: 240px;
 		height: 36px;
@@ -90,7 +90,7 @@
 		float: left;
 		text-indent: 18px;
 	}
-	#search_submit {
+	.search__button {
 		width: 160px;
 		height: 40px;
 		background-color: #ff4e50;

@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ffe15fb-0053-43fd-927f-8b77a2420c80" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_footer-768.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_footer-768.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_main-gallery-768.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_main-gallery-768.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_main-meeting-768.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6fc1ba223bfab6e13522f2d715345ceceb9d350e/_main-meeting-768.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_footer-1440.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_footer-1440.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_main-gallery-1440.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_main-gallery-1440.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_main-meeting-1440.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a68bfcfc9bfc300e099941f23776c34e9ed4f8c2/_main-meeting-1440.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_footer-320.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_footer-320.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_main-gallery-320.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_main-gallery-320.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_main-meeting-320.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4d4ef8f300099eaae01be910ad7d45ff5f13e9d/_main-meeting-320.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URLAUBSGLÜCK_Landing_Mobile.psd" afterPath="$PROJECT_DIR$/URLAUBSGLÜCK_Landing_Mobile.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/1440/_footer-1440.scss" afterPath="$PROJECT_DIR$/src/scss/1440/_footer-1440.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/1440/_main-gallery-1440.scss" afterPath="$PROJECT_DIR$/src/scss/1440/_main-gallery-1440.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/1440/_main-meeting-1440.scss" afterPath="$PROJECT_DIR$/src/scss/1440/_main-meeting-1440.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/320/_footer-320.scss" afterPath="$PROJECT_DIR$/src/scss/320/_footer-320.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/320/_main-gallery-320.scss" afterPath="$PROJECT_DIR$/src/scss/320/_main-gallery-320.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/320/_main-meeting-320.scss" afterPath="$PROJECT_DIR$/src/scss/320/_main-meeting-320.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/768/_footer-768.scss" afterPath="$PROJECT_DIR$/src/scss/768/_footer-768.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/768/_main-gallery-768.scss" afterPath="$PROJECT_DIR$/src/scss/768/_main-gallery-768.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/768/_main-meeting-768.scss" afterPath="$PROJECT_DIR$/src/scss/768/_main-meeting-768.scss" />
     </list>
     <ignored path="GoFE3_JS_exam_Datsenko.iws" />
@@ -46,9 +60,7 @@
             <state vertical-scroll-proportion="-3.2903225">
               <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
-                <marker date="1466336120177" expanded="true" signature="2837:2939" placeholder="{...}" />
-                <marker date="1466336120177" expanded="true" signature="2837:3690" placeholder="{...}" />
-                <marker date="1466336120177" expanded="true" signature="2852:2929" placeholder="{...}" />
+                <marker date="1466338017425" expanded="true" signature="2957:3688" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,9 +72,7 @@
             <state vertical-scroll-proportion="-1.8870968">
               <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
-                <marker date="1466336138427" expanded="true" signature="2840:2942" placeholder="{...}" />
-                <marker date="1466336138427" expanded="true" signature="2840:3693" placeholder="{...}" />
-                <marker date="1466336138427" expanded="true" signature="2855:2932" placeholder="{...}" />
+                <marker date="1466338024799" expanded="true" signature="2960:3691" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,8 +84,7 @@
             <state vertical-scroll-proportion="-13.730769">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1466336145832" expanded="true" signature="373:434" placeholder="{...}" />
-                <marker date="1466336145832" expanded="true" signature="1676:1801" placeholder="{...}" />
+                <marker date="1466338031844" expanded="true" signature="373:434" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,16 +95,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5">
               <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.bxslider.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jquery.bxslider.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="5833" selection-start-line="9" selection-start-column="5833" selection-end-line="9" selection-end-column="5833" />
               <folding />
             </state>
           </provider>
@@ -131,11 +130,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29588607">
-              <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+            <state vertical-scroll-proportion="-15.807693">
+              <caret line="213" column="18" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer-320.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/320/_footer-320.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8386076">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/scss/768/_main-meeting-768.scss" />
         <option value="$PROJECT_DIR$/src/scss/320/_main-meeting-320.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/320/_footer-320.scss" />
       </list>
     </option>
   </component>
@@ -448,7 +458,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="569" y="0" width="872" height="852" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31801692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -612,9 +622,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <marker date="1466336120177" expanded="true" signature="2837:2939" placeholder="{...}" />
-            <marker date="1466336120177" expanded="true" signature="2837:3690" placeholder="{...}" />
-            <marker date="1466336120177" expanded="true" signature="2852:2929" placeholder="{...}" />
+            <marker date="1466338017425" expanded="true" signature="2957:3688" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -742,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/320/_footer-320.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58064514">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/1440/_header-1440.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -826,9 +827,7 @@
         <state vertical-scroll-proportion="-3.2903225">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
-            <marker date="1466336120177" expanded="true" signature="2837:2939" placeholder="{...}" />
-            <marker date="1466336120177" expanded="true" signature="2837:3690" placeholder="{...}" />
-            <marker date="1466336120177" expanded="true" signature="2852:2929" placeholder="{...}" />
+            <marker date="1466338017425" expanded="true" signature="2957:3688" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -838,9 +837,7 @@
         <state vertical-scroll-proportion="-1.8870968">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <marker date="1466336138427" expanded="true" signature="2840:2942" placeholder="{...}" />
-            <marker date="1466336138427" expanded="true" signature="2840:3693" placeholder="{...}" />
-            <marker date="1466336138427" expanded="true" signature="2855:2932" placeholder="{...}" />
+            <marker date="1466338024799" expanded="true" signature="2960:3691" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -850,16 +847,23 @@
         <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1466336145832" expanded="true" signature="373:434" placeholder="{...}" />
-            <marker date="1466336145832" expanded="true" signature="1676:1801" placeholder="{...}" />
+            <marker date="1466338031844" expanded="true" signature="373:434" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29588607">
-          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+        <state vertical-scroll-proportion="-15.807693">
+          <caret line="213" column="18" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/320/_footer-320.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8386076">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>

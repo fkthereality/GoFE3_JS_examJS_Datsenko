@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-    .footer__wrapper {
+    .footer {
         width: 100%;
         height: 200px;
         border-top: 4px solid #ff4e50;
@@ -21,7 +21,7 @@
                 text-transform: uppercase;
                 letter-spacing: 0.05em;
             }
-            .footer__list {
+            .footer__menu {
                 width: 170px;
                 height: 100px;
                 float: left;
@@ -61,7 +61,7 @@
                     }
                 }
             }
-            .designet {
+            .footer__logo_designed {
                 text-align: center;
                 margin-top: 17px;
                 margin-right: 30px;

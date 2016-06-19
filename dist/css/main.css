@@ -314,7 +314,7 @@ table {
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .partners .meet__partner-about {
+      .meet .partners .partners__article {
         margin-top: 18px;
         width: 220px;
         color: #666;
@@ -356,7 +356,7 @@ table {
         background: url("../img/partner-4.png"); }
       .meet .partners_section-4 .partners__status {
         background: url("../img/partner-logo-4.png"); }
-    .meet .meet__form button {
+    .meet .meet__button button {
       color: #ff4e50;
       margin-left: 374px;
       margin-top: 43px;
@@ -370,7 +370,7 @@ table {
       line-height: 40px;
       text-align: center;
       border: 2px solid #ff4e50; }
-      .meet .meet__form button:hover {
+      .meet .meet__button button:hover {
         box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
         cursor: pointer;
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
@@ -418,18 +418,18 @@ table {
     font-weight: 700;
     color: #fff; }
 
-  .form_section {
+  .search {
     width: 460px;
     height: 154px;
     display: block;
     margin: 94px auto 100px; }
 
-  .form_hgroup {
+  .search__section {
     width: 460px;
     margin: 0 auto;
     display: block; }
 
-  .form_headline {
+  .search__header {
     color: #333;
     text-align: center;
     font-family: "MontSerratRegular", Arial, sans-serif;
@@ -437,7 +437,7 @@ table {
     font-weight: 700;
     letter-spacing: 0.02em; }
 
-  .form_headline_low {
+  .search__header_h6 {
     margin-top: 35px;
     color: #333;
     text-align: center;
@@ -445,7 +445,7 @@ table {
     font-size: 18px;
     font-weight: 300; }
 
-  #search_img {
+  .search__input {
     width: 240px;
     height: 36px;
     background-color: #fff;
@@ -461,7 +461,7 @@ table {
     float: left;
     text-indent: 18px; }
 
-  #search_submit {
+  .search__button {
     width: 160px;
     height: 40px;
     background-color: #ff4e50;
@@ -475,16 +475,16 @@ table {
     float: left;
     margin: 40px 10px 20px; } }
 @media screen and (min-width: 1440px) {
-  .footer__wrapper {
+  .footer {
     width: 100%;
     height: 200px;
     border-top: 4px solid #ff4e50;
     background-color: #fff; }
-    .footer__wrapper footer {
+    .footer footer {
       width: 940px;
       margin: 0 auto;
       padding-top: 30px; }
-      .footer__wrapper footer .footer__logo {
+      .footer footer .footer__logo {
         width: 240px;
         height: 100px;
         float: left;
@@ -495,11 +495,11 @@ table {
         font-size: 16px;
         font-weight: 700;
         text-transform: uppercase; }
-      .footer__wrapper footer .footer__list {
+      .footer footer .footer__menu {
         width: 160px;
         height: 100px;
         float: left; }
-        .footer__wrapper footer .footer__list h6 {
+        .footer footer .footer__menu h6 {
           padding-top: 10px;
           margin-bottom: 12px;
           color: #333;
@@ -508,14 +508,14 @@ table {
           font-size: 14px;
           font-weight: 700;
           letter-spacing: 0.025em; }
-        .footer__wrapper footer .footer__list ul {
+        .footer footer .footer__menu ul {
           list-style: none;
           width: 80px; }
-          .footer__wrapper footer .footer__list ul li {
+          .footer footer .footer__menu ul li {
             width: 80px;
             display: inline-block;
             margin-right: 4px; }
-            .footer__wrapper footer .footer__list ul li a {
+            .footer footer .footer__menu ul li a {
               color: #666;
               display: block;
               padding: 2px 0;
@@ -524,25 +524,25 @@ table {
               font-size: 14px;
               font-weight: 300;
               line-height: 20px; }
-              .footer__wrapper footer .footer__list ul li a:hover {
+              .footer footer .footer__menu ul li a:hover {
                 color: #111;
                 transition-delay: 100ms;
                 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-      .footer__wrapper footer .designet {
+      .footer footer .footer__logo_designed {
         text-align: center;
         margin-top: 10px;
         float: right; }
-        .footer__wrapper footer .designet a {
+        .footer footer .footer__logo_designed a {
           letter-spacing: 0.05em;
           text-decoration: none; }
-          .footer__wrapper footer .designet a p {
+          .footer footer .footer__logo_designed a p {
             color: #ccc;
             text-transform: uppercase;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 10px;
             font-weight: 700;
             text-indent: 35px; }
-          .footer__wrapper footer .designet a img {
+          .footer footer .footer__logo_designed a img {
             margin-top: 10px;
             margin-left: 4px; } }
 @media screen and (max-width: 767px) {
@@ -799,7 +799,7 @@ table {
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .partners .meet__partner-about {
+      .meet .partners .partners__article {
         margin-top: 14px;
         padding: 0 40px;
         width: 222px;
@@ -834,12 +834,12 @@ table {
         background: url(../img/partner-4.png); }
       .meet .partners_section-4 .partners__status {
         background: url(../img/partner-logo-4.png); }
-    .meet .meet__form {
+    .meet .meet__button {
       width: 280px;
       height: 40px;
       display: block;
       margin: 0 auto; }
-      .meet .meet__form button {
+      .meet .meet__button button {
         color: #ff4e50;
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 14px;
@@ -851,7 +851,7 @@ table {
         line-height: 40px;
         text-align: center;
         border: 2px solid #ff4e50; }
-        .meet .meet__form button:hover {
+        .meet .meet__button button:hover {
           box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
           cursor: pointer;
           text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
@@ -905,6 +905,72 @@ table {
     clear: both;
     visibility: hidden;
     height: 0; } }
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .search {
+    height: 200px;
+    width: 320px; }
+
+  .search__section {
+    margin: 30px auto 0; }
+
+  .search__section .search__header {
+    width: 300px;
+    margin: 25px 0 0 8px;
+    text-align: center;
+    color: #333;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0.005em; }
+
+  .search__section .search__header_h6 {
+    width: 310px;
+    margin-top: 15px;
+    text-align: center;
+    color: #333;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.015em;
+    text-indent: 4px; }
+
+  .search__input {
+    display: block;
+    margin: 16px 0 0 18px;
+    width: 278px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #eee;
+    color: #999;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    text-indent: 17px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: text; }
+
+  .search__input:hover {
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+  .search__button {
+    display: block;
+    margin: 10px 0 0 18px;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer; }
+
+  #search_submit:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
 @media screen and (max-width: 767px) {
   .form_section {
     height: 200px;
@@ -968,7 +1034,7 @@ table {
       box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
       text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
 @media screen and (max-width: 767px) {
-  .footer__wrapper {
+  .footer {
     width: 100%;
     height: 194px;
     margin-top: 31px;
@@ -985,11 +1051,11 @@ table {
     text-transform: uppercase;
     letter-spacing: 0.05em; }
 
-  .footer__list {
+  .footer__menu {
     width: 320px;
     margin: 16px auto 0;
     height: 32px; }
-    .footer__list h6 {
+    .footer__menu h6 {
       margin-top: 16px;
       color: #333;
       text-align: center;
@@ -997,17 +1063,17 @@ table {
       font-size: 14px;
       font-weight: 700;
       letter-spacing: 0.020em; }
-    .footer__list ul {
+    .footer__menu ul {
       list-style: none;
       width: 320px; }
-      .footer__list ul li {
+      .footer__menu ul li {
         float: left;
         margin-right: 8px; }
-        .footer__list ul li:first-child {
+        .footer__menu ul li:first-child {
           margin-left: 62px; }
-        .footer__list ul li:last-child {
+        .footer__menu ul li:last-child {
           margin-right: 0; }
-        .footer__list ul li a {
+        .footer__menu ul li a {
           color: #666;
           display: block;
           padding: 1px 2px;
@@ -1016,23 +1082,23 @@ table {
           font-size: 14px;
           font-weight: 300;
           line-height: 24px; }
-          .footer__list ul li a:hover {
+          .footer__menu ul li a:hover {
             color: #111;
             transition-delay: 100ms;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
 
-  .designet {
+  .footer__logo_designed {
     text-align: center; }
-    .designet a {
+    .footer__logo_designed a {
       letter-spacing: 0.05em;
       text-decoration: none; }
-      .designet a p {
+      .footer__logo_designed a p {
         color: #ccc;
         text-transform: uppercase;
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 10px;
         font-weight: 700; }
-      .designet a img {
+      .footer__logo_designed a img {
         margin-top: 8px;
         margin-left: 2px; } }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -1295,7 +1361,7 @@ table {
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .partners .meet__partner-about {
+      .meet .partners .partners__article {
         margin-top: 15px;
         width: 216px;
         color: #666;
@@ -1336,7 +1402,7 @@ table {
         background: url("../img/partner-4.png"); }
       .meet .partners_section-4 .partners__status {
         background: url("../img/partner-logo-4.png"); }
-    .meet .meet__form button {
+    .meet .meet__button button {
       color: #ff4e50;
       margin-left: 288px;
       margin-top: 72px;
@@ -1350,7 +1416,7 @@ table {
       line-height: 40px;
       text-align: center;
       border: 2px solid #ff4e50; }
-      .meet .meet__form button:hover {
+      .meet .meet__button button:hover {
         box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
         cursor: pointer;
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
@@ -1395,18 +1461,18 @@ table {
     font-weight: 700;
     color: #fff; }
 
-  .form_section {
+  .search {
     width: 460px;
     height: 154px;
     display: block;
     margin: 94px auto 100px; }
 
-  .form_hgroup {
+  .search__section {
     width: 460px;
     margin: 0 auto;
     display: block; }
 
-  .form_headline {
+  .search__header {
     color: #333;
     text-align: center;
     font-family: "MontSerratRegular", Arial, sans-serif;
@@ -1415,7 +1481,7 @@ table {
     text-indent: 10px;
     letter-spacing: 0.001em; }
 
-  .form_headline_low {
+  .search__header_h6 {
     color: #333;
     text-align: center;
     font-family: "RobotoRegular", Arial, sans-serif;
@@ -1425,7 +1491,7 @@ table {
     text-indent: 20px;
     letter-spacing: -0.005em; }
 
-  #search_img {
+  .search__input {
     margin: 39px 0 20px 30px;
     width: 240px;
     height: 36px;
@@ -1441,7 +1507,7 @@ table {
     float: left;
     text-indent: 18px; }
 
-  #search_submit {
+  .search__button {
     width: 160px;
     height: 40px;
     background-color: #ff4e50;
@@ -1455,16 +1521,16 @@ table {
     float: left;
     margin: 40px 10px 20px; } }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .footer__wrapper {
+  .footer {
     width: 100%;
     height: 200px;
     border-top: 4px solid #ff4e50;
     background-color: #fff; }
-    .footer__wrapper footer {
+    .footer footer {
       width: 768px;
       margin: 0 auto;
       padding-top: 21px; }
-      .footer__wrapper footer .footer__logo {
+      .footer footer .footer__logo {
         width: 225px;
         height: 100px;
         float: left;
@@ -1476,11 +1542,11 @@ table {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.05em; }
-      .footer__wrapper footer .footer__list {
+      .footer footer .footer__menu {
         width: 170px;
         height: 100px;
         float: left; }
-        .footer__wrapper footer .footer__list h6 {
+        .footer footer .footer__menu h6 {
           margin-top: 18px;
           margin-bottom: 10px;
           color: #333;
@@ -1489,14 +1555,14 @@ table {
           font-size: 14px;
           font-weight: 700;
           letter-spacing: 0.025em; }
-        .footer__wrapper footer .footer__list ul {
+        .footer footer .footer__menu ul {
           list-style: none;
           width: 80px; }
-          .footer__wrapper footer .footer__list ul li {
+          .footer footer .footer__menu ul li {
             width: 80px;
             display: inline-block;
             margin-right: 4px; }
-            .footer__wrapper footer .footer__list ul li a {
+            .footer footer .footer__menu ul li a {
               color: #666;
               display: block;
               padding: 2px 0;
@@ -1506,25 +1572,25 @@ table {
               font-weight: 300;
               line-height: 20px;
               letter-spacing: -0.005em; }
-              .footer__wrapper footer .footer__list ul li a:hover {
+              .footer footer .footer__menu ul li a:hover {
                 color: #111;
                 transition-delay: 100ms;
                 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-      .footer__wrapper footer .designet {
+      .footer footer .footer__logo_designed {
         text-align: center;
         margin-top: 17px;
         margin-right: 30px;
         float: right; }
-        .footer__wrapper footer .designet a {
+        .footer footer .footer__logo_designed a {
           letter-spacing: 0.05em;
           text-decoration: none; }
-          .footer__wrapper footer .designet a p {
+          .footer footer .footer__logo_designed a p {
             color: #ccc;
             text-transform: uppercase;
             font-family: "MontSerratRegular", Arial, sans-serif;
             font-size: 10px;
             font-weight: 700;
             text-indent: 35px; }
-          .footer__wrapper footer .designet a img {
+          .footer footer .footer__logo_designed a img {
             margin-top: 10px;
             margin-left: 4px; } }

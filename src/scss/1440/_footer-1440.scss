@@ -1,5 +1,5 @@
 @media screen and (min-width: 1440px) {
-.footer__wrapper {
+.footer {
     width: 100%;
     height: 200px;
     border-top: 4px solid #ff4e50;
@@ -21,7 +21,7 @@
             font-weight: 700;
             text-transform: uppercase;
         }
-        .footer__list {
+        .footer__menu {
             width: 160px;
             height: 100px;
             float: left;
@@ -60,7 +60,7 @@
                 }
             }
         }
-        .designet {
+        .footer__logo_designed {
             text-align: center;
             margin-top: 10px;
             float: right;
