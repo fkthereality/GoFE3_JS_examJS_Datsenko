@@ -292,29 +292,29 @@ table {
       font-size: 22px;
       font-weight: 700;
       letter-spacing: 0.0015em; }
-    .meet .meet__partner {
+    .meet .partners {
       width: 220px;
       height: 230px;
       position: relative; }
-      .meet .meet__partner .meet__partner-photo {
+      .meet .partners .partners__avatar {
         width: 120px;
         height: 120px;
         margin-left: 50px;
         display: inline-block; }
-      .meet .meet__partner .meet__partner-logo {
+      .meet .partners .partners__status {
         position: absolute;
         width: 41px;
         height: 41px;
         top: 85px;
         right: 45px; }
-      .meet .meet__partner .meet__partner-name {
+      .meet .partners .partners__header {
         margin-top: 18px;
         color: #333;
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .meet__partner .meet__partner-about {
+      .meet .partners .meet__partner-about {
         margin-top: 18px;
         width: 220px;
         color: #666;
@@ -324,37 +324,37 @@ table {
         line-height: 1.2;
         letter-spacing: -0.05em;
         text-align: center; }
-    .meet .partner-1 {
+    .meet .partners_section-1 {
       margin-left: 0;
       margin-top: 40px;
       float: left; }
-      .meet .partner-1 .meet__partner-photo {
+      .meet .partners_section-1 .partners__avatar {
         background: url("../img/partner-1.png"); }
-      .meet .partner-1 .meet__partner-logo {
+      .meet .partners_section-1 .partners__status {
         background: url("../img/partner-logo-1.png"); }
-    .meet .partner-2 {
+    .meet .partners_section-2 {
       margin-left: 20px;
       margin-top: 40px;
       float: left; }
-      .meet .partner-2 .meet__partner-photo {
+      .meet .partners_section-2 .partners__avatar {
         background: url("../img/partner-3.png"); }
-      .meet .partner-2 .meet__partner-logo {
+      .meet .partners_section-2 .partners__status {
         background: url("../img/partner-logo-3.png"); }
-    .meet .partner-3 {
+    .meet .partners_section-3 {
       margin-left: 20px;
       margin-top: 40px;
       float: left; }
-      .meet .partner-3 .meet__partner-photo {
+      .meet .partners_section-3 .partners__avatar {
         background: url("../img/partner-2.png"); }
-      .meet .partner-3 .meet__partner-logo {
+      .meet .partners_section-3 .partners__status {
         background: url("../img/partner-logo-2.png"); }
-    .meet .partner-4 {
+    .meet .partners_section-4 {
       margin-left: 20px;
       margin-top: 40px;
       float: left; }
-      .meet .partner-4 .meet__partner-photo {
+      .meet .partners_section-4 .partners__avatar {
         background: url("../img/partner-4.png"); }
-      .meet .partner-4 .meet__partner-logo {
+      .meet .partners_section-4 .partners__status {
         background: url("../img/partner-logo-4.png"); }
     .meet .meet__form button {
       color: #ff4e50;
@@ -777,29 +777,29 @@ table {
       font-weight: 700;
       line-height: 1.2em;
       letter-spacing: 0.005em; }
-    .meet .meet__partner {
+    .meet .partners {
       width: 300px;
       height: 229px;
       position: relative; }
-      .meet .meet__partner .meet__partner-photo {
+      .meet .partners .partners__avatar {
         width: 120px;
         height: 120px;
         margin-left: 90px;
         display: inline-block; }
-      .meet .meet__partner .meet__partner-logo {
+      .meet .partners .partners__status {
         position: absolute;
         width: 41px;
         height: 41px;
         top: 85px;
         right: 84px; }
-      .meet .meet__partner .meet__partner-name {
+      .meet .partners .partners__header {
         margin-top: 19px;
         color: #333;
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .meet__partner .meet__partner-about {
+      .meet .partners .meet__partner-about {
         margin-top: 14px;
         padding: 0 40px;
         width: 222px;
@@ -809,30 +809,30 @@ table {
         font-weight: 300;
         line-height: 1.2;
         text-align: center; }
-    .meet .partner-1 {
+    .meet .partners_section-1 {
       margin-top: 16px;
       margin-left: 9px; }
-      .meet .partner-1 .meet__partner-photo {
+      .meet .partners_section-1 .partners__avatar {
         background: url(../img/partner-1.png); }
-      .meet .partner-1 .meet__partner-logo {
+      .meet .partners_section-1 .partners__status {
         background: url(../img/partner-logo-1.png); }
-    .meet .partner-2 {
+    .meet .partners_section-2 {
       margin: 0 auto; }
-      .meet .partner-2 .meet__partner-photo {
+      .meet .partners_section-2 .partners__avatar {
         background: url(../img/partner-3.png); }
-      .meet .partner-2 .meet__partner-logo {
+      .meet .partners_section-2 .partners__status {
         background: url(../img/partner-logo-3.png); }
-    .meet .partner-3 {
+    .meet .partners_section-3 {
       margin: 33px 0 0 8px; }
-      .meet .partner-3 .meet__partner-photo {
+      .meet .partners_section-3 .partners__avatar {
         background: url(../img/partner-2.png); }
-      .meet .partner-3 .meet__partner-logo {
+      .meet .partners_section-3 .partners__status {
         background: url(../img/partner-logo-2.png); }
-    .meet .partner-4 {
+    .meet .partners_section-4 {
       margin: 0 0 0 8px; }
-      .meet .partner-4 .meet__partner-photo {
+      .meet .partners_section-4 .partners__avatar {
         background: url(../img/partner-4.png); }
-      .meet .partner-4 .meet__partner-logo {
+      .meet .partners_section-4 .partners__status {
         background: url(../img/partner-logo-4.png); }
     .meet .meet__form {
       width: 280px;
@@ -1273,29 +1273,29 @@ table {
       letter-spacing: 0.005em;
       font-size: 22px;
       font-weight: 700; }
-    .meet .meet__partner {
+    .meet .partners {
       width: 236px;
       height: 240 px;
       position: relative; }
-      .meet .meet__partner .meet__partner-photo {
+      .meet .partners .partners__avatar {
         width: 120px;
         height: 120px;
         margin-left: 58px;
         display: inline-block; }
-      .meet .meet__partner .meet__partner-logo {
+      .meet .partners .partners__status {
         position: absolute;
         width: 41px;
         height: 41px;
         top: 85px;
         right: 53px; }
-      .meet .meet__partner .meet__partner-name {
+      .meet .partners .partners__header {
         margin-top: 18px;
         color: #333;
         font-family: "MontSerratRegular", Arial, sans-serif;
         font-size: 14px;
         font-weight: 700;
         text-align: center; }
-      .meet .meet__partner .meet__partner-about {
+      .meet .partners .meet__partner-about {
         margin-top: 15px;
         width: 216px;
         color: #666;
@@ -1304,37 +1304,37 @@ table {
         font-weight: 300;
         line-height: 1.2;
         text-align: center; }
-    .meet .partner-1 {
+    .meet .partners_section-1 {
       margin-left: 139px;
       margin-top: 34px;
       float: left; }
-      .meet .partner-1 .meet__partner-photo {
+      .meet .partners_section-1 .partners__avatar {
         background: url("../img/partner-1.png"); }
-      .meet .partner-1 .meet__partner-logo {
+      .meet .partners_section-1 .partners__status {
         background: url("../img/partner-logo-1.png"); }
-    .meet .partner-2 {
+    .meet .partners_section-2 {
       margin-left: 20px;
       margin-top: 34px;
       float: left; }
-      .meet .partner-2 .meet__partner-photo {
+      .meet .partners_section-2 .partners__avatar {
         background: url("../img/partner-3.png"); }
-      .meet .partner-2 .meet__partner-logo {
+      .meet .partners_section-2 .partners__status {
         background: url("../img/partner-logo-3.png"); }
-    .meet .partner-3 {
+    .meet .partners_section-3 {
       margin-left: 139px;
       margin-top: 25px;
       float: left; }
-      .meet .partner-3 .meet__partner-photo {
+      .meet .partners_section-3 .partners__avatar {
         background: url("../img/partner-2.png"); }
-      .meet .partner-3 .meet__partner-logo {
+      .meet .partners_section-3 .partners__status {
         background: url("../img/partner-logo-2.png"); }
-    .meet .partner-4 {
+    .meet .partners_section-4 {
       margin-left: 20px;
       margin-top: 25px;
       float: left; }
-      .meet .partner-4 .meet__partner-photo {
+      .meet .partners_section-4 .partners__avatar {
         background: url("../img/partner-4.png"); }
-      .meet .partner-4 .meet__partner-logo {
+      .meet .partners_section-4 .partners__status {
         background: url("../img/partner-logo-4.png"); }
     .meet .meet__form button {
       color: #ff4e50;

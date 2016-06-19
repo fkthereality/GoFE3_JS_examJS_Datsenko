@@ -16,24 +16,24 @@
             font-size: 22px;
             font-weight: 700;
         }
-        .meet__partner {
+        .partners {
             width: 236px;
             height: 240 px;
             position: relative;
-            .meet__partner-photo {
+            .partners__avatar {
                 width: 120px;
                 height: 120px;
                 margin-left: 58px;
                 display: inline-block;
             }
-            .meet__partner-logo {
+            .partners__status {
                 position: absolute;
                 width: 41px;
                 height: 41px;
                 top: 85px;
                 right: 53px;
             }
-            .meet__partner-name {
+            .partners__header {
                 margin-top: 18px;
                 color: #333;
                 font-family: $MSRegular;
@@ -53,47 +53,47 @@
                 text-align: center;
             }
         }
-        .partner-1 {
+        .partners_section-1 {
             margin-left: 139px;
             margin-top: 34px;
             float: left;
-            .meet__partner-photo {
+            .partners__avatar {
                 background: url("../img/partner-1.png");
             }
-            .meet__partner-logo {
+            .partners__status {
                 background: url("../img/partner-logo-1.png");
             }
         }
-        .partner-2 {
+        .partners_section-2 {
             margin-left: 20px;
             margin-top: 34px;
             float: left;
-            .meet__partner-photo {
+            .partners__avatar {
                 background: url("../img/partner-3.png");
             }
-            .meet__partner-logo {
+            .partners__status {
                 background: url("../img/partner-logo-3.png");
             }
         }
-        .partner-3 {
+        .partners_section-3 {
             margin-left: 139px;
             margin-top: 25px;
             float: left;
-            .meet__partner-photo {
+            .partners__avatar {
                 background: url("../img/partner-2.png");
             }
-            .meet__partner-logo {
+            .partners__status {
                 background: url("../img/partner-logo-2.png");
             }
         }
-        .partner-4 {
+        .partners_section-4 {
             margin-left: 20px;
             margin-top: 25px;
             float: left;
-            .meet__partner-photo {
+            .partners__avatar {
                 background: url("../img/partner-4.png");
             }
-            .meet__partner-logo {
+            .partners__status {
                 background: url("../img/partner-logo-4.png");
             }
         }

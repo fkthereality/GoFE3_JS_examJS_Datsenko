@@ -20,18 +20,18 @@
 	}
 
 
-	.meet__partner {
+	.partners {
 		width: 300px;
 		height: 229px;
 		position: relative;
 
-		.meet__partner-photo{
+		.partners__avatar{
 			width: 120px;
 			height: 120px;
 			margin-left: 90px;
 			display: inline-block;
 		}
-		.meet__partner-logo{
+		.partners__status {
 			position: absolute;
 			width: 41px;
 			height: 41px;
@@ -39,7 +39,7 @@
 			right: 84px;
 
 		}
-		.meet__partner-name {
+		.partners__header {
 			margin-top: 19px;
 			color: #333;
 			font-family: $MSRegular;
@@ -60,43 +60,43 @@
 		}
 	}
 
-	.partner-1 {
+	.partners_section-1 {
 		margin-top: 16px;
 		margin-left: 9px;
-		.meet__partner-photo {
+		.partners__avatar {
 			background: url(../img/partner-1.png);
 		}
-		.meet__partner-logo{
+		.partners__status {
 			background: url(../img/partner-logo-1.png);
 		}
 	}
 
-	.partner-2 {
+	.partners_section-2 {
 		margin: 0 auto;
-		.meet__partner-photo {
+		.partners__avatar {
 			background: url(../img/partner-3.png);
 		}
-		.meet__partner-logo{
+		.partners__status {
 			background: url(../img/partner-logo-3.png);
 		}
 	}
 
-	.partner-3 {
+	.partners_section-3 {
 		margin: 33px 0 0 8px;
-		.meet__partner-photo {
+		.partners__avatar {
 			background: url(../img/partner-2.png);
 		}
-		.meet__partner-logo{
+		.partners__status {
 			background: url(../img/partner-logo-2.png);
 		}
 	}
 
-	.partner-4 {
+	.partners_section-4 {
 		margin: 0 0 0 8px;
-		.meet__partner-photo {
+		.partners__avatar {
 			background: url(../img/partner-4.png);
 		}
-		.meet__partner-logo{
+		.partners__status {
 			background: url(../img/partner-logo-4.png);
 		}
 	}
