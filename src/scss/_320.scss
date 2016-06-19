@@ -1,0 +1,570 @@
+
+/* ---------------------------------HEADER 320---------------------*/
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #FFF; }
+
+  body {
+    width: 320px;
+    margin: 0 auto;
+    background: #fff; }
+
+  .main__wrapper {
+    width: 320px; }
+
+  .header {
+    width: 100%;
+    background: url(../img/header__bg-mobile.jpg) no-repeat;
+    background-position: 50% 0; }
+    .header header {
+      width: 320px;
+      height: 540px;
+      margin: 0 auto; }
+      .header header .form {
+        width: 320px;
+        height: 32px;
+        padding: 0 60px; }
+        .header header .form .form__button {
+          display: block;
+          float: left;
+          margin-top: 20px;
+          width: 87px;
+          height: 36px;
+          border: 2px solid transparent;
+          border-radius: 18px;
+          background: transparent;
+          cursor: pointer;
+          margin-left: 0; }
+          .header header .form .form__button:hover {
+            border: 2px solid #fff; }
+          .header header .form .form__button span {
+            color: #fff;
+            font-family: "MontSerratRegular", Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 700; }
+      .header header img {
+        margin: 115px 70px 0 71px; }
+      .header header h1 {
+        margin: 29px auto 0;
+        width: 300px;
+        height: 59px;
+        color: #fff;
+        letter-spacing: -0.0025em;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 700; }
+      .header header h3 {
+        margin: 22px auto 0;
+        width: 240px;
+        height: 36px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: -0.005em;
+        line-height: 1.2em;
+        font-family: "RobotoRegular", Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 300; }
+      .header header .header__button_search {
+        margin: 22px 20px 0;
+        width: 280px;
+        height: 40px;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        border: none; }
+        .header header .header__button_search span {
+          color: #fff;
+          font-family: "MontSerratRegular", Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 700; }
+        .header header .header__button_search:hover {
+          cursor: pointer;
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+          text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF HEADER 320---------------------*/
+
+/* ---------------------------------SLIDER 320---------------------*/
+@media screen and (max-width: 767px) {
+  .slider_wrapper {
+    width: 320px;
+    height: 820px;
+    margin: 0 auto; }
+
+  .slider__header {
+    padding: 37px 0 16px;
+    text-align: center;
+    color: #333;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.005em; }
+
+  .slider {
+    width: 300px;
+    height: 240px; }
+    .slider ul {
+      margin: 0 auto;
+      width: 300px;
+      height: 240px;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative; }
+      .slider ul li {
+        display: inline-block; }
+    .slider .slider__content .slider__content-note {
+      width: 70px;
+      height: 20px;
+      background-color: #ff4e50;
+      border-radius: 10px; }
+      .slider .slider__content .slider__content-note p {
+        padding: 6px 0 0;
+        text-indent: 14px;
+        letter-spacing: 3px;
+        word-spacing: -3px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 10px;
+        font-weight: 400; }
+    .slider .slider__content .slider__content-text {
+      width: 270px;
+      height: 142px;
+      margin-top: -4px; }
+      .slider .slider__content .slider__content-text h5 {
+        color: #fff;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 12px;
+        line-height: 1.2em; }
+      .slider .slider__content .slider__content-text p {
+        line-height: 1.2em;
+        color: #ccc;
+        font-family: "RobotoRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 300; }
+
+  .slider_step-1 {
+    margin: 0 auto 10px;
+    width: 300px;
+    height: 240px;
+    position: relative; }
+    .slider_step-1 .slider__content .slider__content-note {
+      position: absolute;
+      top: 69px;
+      left: 20px; }
+    .slider_step-1 .slider__content .slider__content-text {
+      position: absolute;
+      top: 111px;
+      left: 20px; }
+
+  .slider_step-2 {
+    margin: 0 auto 10px;
+    position: relative; }
+    .slider_step-2 .slider__content .slider__content-note {
+      position: absolute;
+      top: 99px;
+      left: 20px; }
+    .slider_step-2 .slider__content .slider__content-text {
+      position: absolute;
+      top: 140px;
+      left: 20px; }
+
+  .slider_step-3 {
+    margin: 0 auto;
+    position: relative; }
+    .slider_step-3 .slider__content .slider__content-note {
+      position: absolute;
+      top: 69px;
+      left: 20px; }
+    .slider_step-3 .slider__content .slider__content-text {
+      position: absolute;
+      top: 111px;
+      left: 20px; }
+
+  /* ----------------------------------------------- */
+  .bx-prev {
+    background-position: 0 0;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 55px;
+    width: 31px;
+    cursor: pointer;
+    text-indent: -9999px;
+    z-index: 50; }
+
+  .bx-prev:hover {
+    background-position: 0 -58px; }
+
+  .bx-next {
+    display: block;
+    background-position: -33px 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 55px;
+    width: 31px;
+    cursor: pointer;
+    text-indent: -9999px;
+    z-index: 50; }
+
+  .bx-next:hover {
+    background-position: -33px -58px; } }
+.bx-wrapper {
+  height: 240px; }
+
+/* ---------------------------------END OF SLIDER 320---------------------*/
+/* ---------------------------------MEET 320---------------------*/
+@media screen and (max-width: 767px) {
+  .meet {
+    width: 320px;
+    height: 980px;
+    margin: 0 auto; }
+    .meet a {
+      text-decoration: none; }
+    .meet .meet__header {
+      color: #333;
+      width: 265px;
+      margin: 30px auto 0;
+      text-align: center;
+      text-indent: -5px;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.2em;
+      letter-spacing: 0.005em; }
+    .meet .partners {
+      width: 300px;
+      height: 229px;
+      position: relative; }
+      .meet .partners .partners__avatar {
+        width: 120px;
+        height: 120px;
+        margin-left: 90px;
+        display: inline-block; }
+      .meet .partners .partners__status {
+        position: absolute;
+        width: 41px;
+        height: 41px;
+        top: 85px;
+        right: 84px; }
+      .meet .partners .partners__header {
+        margin-top: 19px;
+        color: #333;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center; }
+      .meet .partners .partners__article {
+        margin-top: 14px;
+        padding: 0 40px;
+        width: 222px;
+        color: #666;
+        font-family: "RobotoRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.2;
+        text-align: center; }
+    .meet .partners_section-1 {
+      margin-top: 16px;
+      margin-left: 9px; }
+      .meet .partners_section-1 .partners__avatar {
+        background: url(../img/partners__avatar_1.png); }
+      .meet .partners_section-1 .partners__status {
+        background: url(../img/partners__status_1.png); }
+    .meet .partners_section-2 {
+      margin: 0 auto; }
+      .meet .partners_section-2 .partners__avatar {
+        background: url(../img/partners__avatar_2.png); }
+      .meet .partners_section-2 .partners__status {
+        background: url(../img/partners__status_2.png); }
+    .meet .partners_section-3 {
+      margin: 33px 0 0 8px; }
+      .meet .partners_section-3 .partners__avatar {
+        background: url(../img/partners__avatar_3.png); }
+      .meet .partners_section-3 .partners__status {
+        background: url(../img/partners__status_3.png); }
+    .meet .partners_section-4 {
+      margin: 0 0 0 8px; }
+      .meet .partners_section-4 .partners__avatar {
+        background: url(../img/partners__avatar_4.png); }
+      .meet .partners_section-4 .partners__status {
+        background: url(../img/partners__status_4.png); }
+    .meet .meet__button {
+      width: 280px;
+      height: 40px;
+      display: block;
+      margin: 0 auto; }
+      .meet .meet__button button {
+        color: #ff4e50;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        width: 280px;
+        border-radius: 20px;
+        background-color: transparent;
+        line-height: 40px;
+        text-align: center;
+        border: 2px solid #ff4e50; }
+        .meet .meet__button button:hover {
+          box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MEET 320---------------------*/
+/* ---------------------------------MASONRY 320---------------------*/
+@media screen and (max-width: 767px) {
+  .gallery {
+    width: 320px;
+    height: auto;
+    margin-top: 110px; }
+    .gallery .gallery__headline {
+      color: #333;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 0.005em;
+      line-height: 1.2em;
+      margin-bottom: 4px; }
+
+  /* ---------------------------------Masonry---------------------*/
+  .grid {
+    width: 320px;
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1; }
+
+  .grid-item {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative; }
+
+  .grid-item img {
+    width: 100%; }
+
+  .topic-of-photo {
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff; }
+
+  #gallery-id:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0; } }
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .search {
+    height: 200px;
+    width: 320px; }
+
+  .search__section {
+    margin: 30px auto 0; }
+
+  .search__section .search__header {
+    width: 300px;
+    margin: 25px 0 0 8px;
+    text-align: center;
+    color: #333;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0.005em; }
+
+  .search__section .search__header_h6 {
+    width: 310px;
+    margin-top: 15px;
+    text-align: center;
+    color: #333;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.015em;
+    text-indent: 4px; }
+
+  .search__input {
+    display: block;
+    margin: 16px 0 0 18px;
+    width: 278px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #eee;
+    color: #999;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    text-indent: 17px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: text; }
+
+  .search__input:hover {
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+  .search__button {
+    display: block;
+    margin: 10px 0 0 18px;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer; }
+
+  #search_submit:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MASONRY 320---------------------*/
+/* ---------------------------------SEARCH 320---------------------*/
+@media screen and (max-width: 767px) {
+  .form_section {
+    height: 200px;
+    width: 320px; }
+
+  .form_hgroup {
+    margin: 30px auto 0; }
+    .form_hgroup .form_headline {
+      width: 300px;
+      margin: 25px 0 0 8px;
+      text-align: center;
+      color: #333;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.2em;
+      letter-spacing: 0.005em; }
+    .form_hgroup .form_headline_low {
+      width: 310px;
+      margin-top: 15px;
+      text-align: center;
+      color: #333;
+      font-family: "RobotoRegular", Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: -0.015em;
+      text-indent: 4px; }
+
+  #search_img {
+    display: block;
+    margin: 16px 0 0 18px;
+    width: 278px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #eee;
+    color: #999;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    text-indent: 17px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: text; }
+    #search_img:hover {
+      box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+  #search_submit {
+    display: block;
+    margin: 10px 0 0 18px;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer; }
+    #search_submit:hover {
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+      text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF SEARCH 320---------------------*/
+/* ---------------------------------FOOTER 320---------------------*/
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 100%;
+    height: 194px;
+    margin-top: 31px;
+    border-top: 4px solid #ff4e50;
+    background-color: #fff; }
+
+  .footer__logo {
+    margin-top: 18px;
+    text-align: center;
+    color: #ff4e50;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; }
+
+  .footer__menu {
+    width: 320px;
+    margin: 16px auto 0;
+    height: 32px; }
+    .footer__menu h6 {
+      margin-top: 16px;
+      color: #333;
+      text-align: center;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.020em; }
+    .footer__menu ul {
+      list-style: none;
+      width: 320px; }
+      .footer__menu ul li {
+        float: left;
+        margin-right: 8px; }
+        .footer__menu ul li:first-child {
+          margin-left: 62px; }
+        .footer__menu ul li:last-child {
+          margin-right: 0; }
+        .footer__menu ul li a {
+          color: #666;
+          display: block;
+          padding: 1px 2px;
+          text-decoration: none;
+          font-family: "RobotoRegular", Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 24px; }
+          .footer__menu ul li a:hover {
+            color: #111;
+            transition-delay: 100ms;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+
+  .footer__logo_designed {
+    text-align: center; }
+    .footer__logo_designed a {
+      letter-spacing: 0.05em;
+      text-decoration: none; }
+      .footer__logo_designed a p {
+        color: #ccc;
+        text-transform: uppercase;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 10px;
+        font-weight: 700; }
+      .footer__logo_designed a img {
+        margin-top: 8px;
+        margin-left: 2px; } }
+/* ---------------------------------END OF FOOTER 320---------------------*/

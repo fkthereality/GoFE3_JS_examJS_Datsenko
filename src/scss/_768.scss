@@ -1,0 +1,505 @@
+
+/* ---------------------------------HEADER 768---------------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  body {
+    background-color: #fff; }
+
+  body {
+    width: 768px;
+    margin: 0 auto;
+    background: #fff; }
+
+  .header {
+    width: 100%;
+    background: url(../img/header__bg-wide.jpg) no-repeat;
+    background-position: 50% 0; }
+    .header header {
+      position: relative;
+      width: 768px;
+      height: 700px;
+      margin: 0 auto; }
+      .header header .form {
+        margin-left: 544px;
+        padding-top: 18px;
+        width: 182px;
+        height: 36px; }
+        .header header .form .form__button {
+          display: block;
+          float: left;
+          margin-top: 20px;
+          margin-left: -2px;
+          width: 90px;
+          height: 36px;
+          border: 2px solid transparent;
+          border-radius: 18px;
+          background: transparent; }
+          .header header .form .form__button:hover {
+            border: 2px solid #fff;
+            cursor: pointer; }
+          .header header .form .form__button span {
+            color: #fff;
+            font-family: "MontSerratRegular", Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 700; }
+      .header header img {
+        position: absolute;
+        top: 46px;
+        left: 50px; }
+      .header header h1 {
+        margin: 165px auto 0;
+        width: 510px;
+        height: 100px;
+        color: #fff;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 52px;
+        font-weight: 700; }
+      .header header h3 {
+        margin: 48px auto 0;
+        width: 420px;
+        height: 24px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 0.015em;
+        font-family: "RobotoRegular", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300px; }
+      .header header .header__button_search {
+        display: block;
+        margin: 35px auto 0;
+        width: 225px;
+        height: 40px;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        border: none; }
+        .header header .header__button_search span {
+          color: #fff;
+          font-family: "MontSerratRegular", Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 700; }
+        .header header .header__button_search:hover {
+          cursor: pointer;
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+          text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF HEADER 768---------------------*/
+/* ---------------------------------SLIDER 768---------------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .slider_wrapper {
+    width: 768px;
+    height: 556px;
+    margin: 0 auto; }
+
+  .slider__header {
+    padding: 97px 0 0;
+    text-align: center;
+    text-indent: 7px;
+    color: #333;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700; }
+
+  .slider {
+    display: inline-block;
+    float: left;
+    width: 236px;
+    height: 400px;
+    margin: 36px 10px 0;
+    border-radius: 4px; }
+    .slider ul {
+      margin: 0 auto;
+      width: 236px;
+      height: 400px;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative; }
+      .slider ul li {
+        display: inline-block;
+        float: left; }
+    .slider .slider__content {
+      position: absolute;
+      width: 300px;
+      height: 403px;
+      top: 0; }
+      .slider .slider__content .slider__content-note {
+        width: 70px;
+        height: 20px;
+        background-color: #ff4e50;
+        border-radius: 10px; }
+        .slider .slider__content .slider__content-note p {
+          padding: 5px 0;
+          text-indent: 14px;
+          letter-spacing: 3px;
+          word-spacing: -3px;
+          text-transform: uppercase;
+          color: #fff;
+          font-family: "MontSerratRegular", Arial, sans-serif;
+          font-size: 10px;
+          font-weight: 400; }
+      .slider .slider__content .slider__content-text {
+        width: 202px;
+        height: 132px; }
+        .slider .slider__content .slider__content-text h5 {
+          color: #fff;
+          font-family: "MontSerratRegular", Arial, sans-serif;
+          font-size: 24px;
+          font-weight: 300;
+          line-height: 1.2em; }
+        .slider .slider__content .slider__content-text p {
+          margin-top: 10px;
+          color: #ccc;
+          font-family: "RobotoRegular", Arial, sans-serif;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 1.5em;
+          letter-spacing: 0.05em; }
+
+  .slider_step-1 {
+    position: relative; }
+    .slider_step-1 .slider__content .slider__content-note {
+      position: absolute;
+      top: 214px;
+      left: 20px; }
+    .slider_step-1 .slider__content .slider__content-text {
+      position: absolute;
+      top: 250px;
+      left: 20px; }
+
+  .slider_step-2 {
+    position: relative; }
+    .slider_step-2 .slider__content .slider__content-note {
+      position: absolute;
+      top: 260px;
+      left: 20px; }
+    .slider_step-2 .slider__content .slider__content-text {
+      position: absolute;
+      top: 296px;
+      left: 20px; }
+
+  .slider_step-3 {
+    position: relative; }
+    .slider_step-3 .slider__content .slider__content-note {
+      position: absolute;
+      top: 214px;
+      left: 20px; }
+    .slider_step-3 .slider__content .slider__content-text {
+      position: absolute;
+      top: 250px;
+      left: 20px; }
+
+  .slider:after {
+    content: " ";
+    clear: both; }
+
+  /* ---------------------- <   >  ------------------------- */
+  .bx-prev {
+    background: url(../img/arrow.png) no-repeat;
+    background-position: 0 0;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    height: 55px;
+    width: 31px;
+    cursor: pointer;
+    text-indent: -9999px;
+    z-index: 50; }
+
+  .bx-prev:hover {
+    background-position: 0 -58px; }
+
+  .bx-next {
+    background: url(../img/arrow.png) no-repeat;
+    display: block;
+    background-position: -33px 0;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    height: 55px;
+    width: 31px;
+    cursor: pointer;
+    text-indent: -9999px;
+    z-index: 50; }
+
+  .bx-next:hover {
+    background-position: -33px -58px; } }
+/* ---------------------------------END OF SLIDER 768---------------------*/
+/* ---------------------------------MEET 768---------------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .meet {
+    width: 768px;
+    height: 727px;
+    margin: 0 auto;
+    position: relative; }
+    .meet a {
+      text-decoration: none; }
+    .meet .meet__header {
+      color: #333;
+      margin-top: 98px;
+      text-align: center;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      letter-spacing: 0.005em;
+      font-size: 22px;
+      font-weight: 700; }
+    .meet .partners {
+      width: 236px;
+      height: 240 px;
+      position: relative; }
+      .meet .partners .partners__avatar {
+        width: 120px;
+        height: 120px;
+        margin-left: 58px;
+        display: inline-block; }
+      .meet .partners .partners__status {
+        position: absolute;
+        width: 41px;
+        height: 41px;
+        top: 85px;
+        right: 53px; }
+      .meet .partners .partners__header {
+        margin-top: 18px;
+        color: #333;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center; }
+      .meet .partners .partners__article {
+        margin-top: 15px;
+        width: 216px;
+        color: #666;
+        font-family: "RobotoRegular", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.2;
+        text-align: center; }
+    .meet .partners_section-1 {
+      margin-left: 139px;
+      margin-top: 34px;
+      float: left; }
+      .meet .partners_section-1 .partners__avatar {
+        background: url("../img/partners__avatar_1.png"); }
+      .meet .partners_section-1 .partners__status {
+        background: url("../img/partners__status_1.png"); }
+    .meet .partners_section-2 {
+      margin-left: 20px;
+      margin-top: 34px;
+      float: left; }
+      .meet .partners_section-2 .partners__avatar {
+        background: url("../img/partners__avatar_2.png"); }
+      .meet .partners_section-2 .partners__status {
+        background: url("../img/partners__status_2.png"); }
+    .meet .partners_section-3 {
+      margin-left: 139px;
+      margin-top: 25px;
+      float: left; }
+      .meet .partners_section-3 .partners__avatar {
+        background: url("../img/partners__avatar_3.png"); }
+      .meet .partners_section-3 .partners__status {
+        background: url("../img/partners__status_3.png"); }
+    .meet .partners_section-4 {
+      margin-left: 20px;
+      margin-top: 25px;
+      float: left; }
+      .meet .partners_section-4 .partners__avatar {
+        background: url("../img/partners__avatar_4.png"); }
+      .meet .partners_section-4 .partners__status {
+        background: url("../img/partners__status_4.png"); }
+    .meet .meet__button button {
+      color: #ff4e50;
+      margin-left: 288px;
+      margin-top: 72px;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      height: 40px;
+      width: 192px;
+      border-radius: 20px;
+      background-color: transparent;
+      line-height: 40px;
+      text-align: center;
+      border: 2px solid #ff4e50; }
+      .meet .meet__button button:hover {
+        box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MEET 768---------------------*/
+/* ---------------------------------MASONRY 768---------------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .gallery {
+    width: 768px;
+    height: auto; }
+    .gallery .gallery__headline {
+      color: #333;
+      font-family: "MontSerratRegular", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 14px; }
+
+  /* ---------------------------------Masonry---------------------*/
+  .grid {
+    width: 768;
+    margin: 0 auto;
+    padding: 0 10px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3; }
+
+  .grid-item {
+    width: 236px;
+    margin: 20px 10px 0;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border: none; }
+
+  .grid-item img {
+    width: 100%; }
+
+  .topic-of-photo {
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff; }
+
+  .search {
+    width: 460px;
+    height: 154px;
+    display: block;
+    margin: 94px auto 100px; }
+
+  .search__section {
+    width: 460px;
+    margin: 0 auto;
+    display: block; }
+
+  .search__header {
+    color: #333;
+    text-align: center;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-indent: 10px;
+    letter-spacing: 0.001em; }
+
+  .search__header_h6 {
+    color: #333;
+    text-align: center;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 35px;
+    text-indent: 20px;
+    letter-spacing: -0.005em; }
+
+  .search__input {
+    margin: 39px 0 20px 30px;
+    width: 240px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #eee;
+    color: #999;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    float: left;
+    text-indent: 18px; }
+
+  .search__button {
+    width: 160px;
+    height: 40px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: "MontSerratRegular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    float: left;
+    margin: 40px 10px 20px; } }
+/* ---------------------------------END OF MASONRY 768---------------------*/
+
+/* ---------------------------------FOOTER 768---------------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer {
+    width: 100%;
+    height: 200px;
+    border-top: 4px solid #ff4e50;
+    background-color: #fff; }
+    .footer footer {
+      width: 768px;
+      margin: 0 auto;
+      padding-top: 21px; }
+      .footer footer .footer__logo {
+        width: 225px;
+        height: 100px;
+        float: left;
+        margin-top: 17px;
+        margin-left: 48px;
+        color: #ff4e50;
+        font-family: "MontSerratRegular", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em; }
+      .footer footer .footer__menu {
+        width: 170px;
+        height: 100px;
+        float: left; }
+        .footer footer .footer__menu h6 {
+          margin-top: 18px;
+          margin-bottom: 10px;
+          color: #333;
+          text-align: left;
+          font-family: "MontSerratRegular", Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 0.025em; }
+        .footer footer .footer__menu ul {
+          list-style: none;
+          width: 80px; }
+          .footer footer .footer__menu ul li {
+            width: 80px;
+            display: inline-block;
+            margin-right: 4px; }
+            .footer footer .footer__menu ul li a {
+              color: #666;
+              display: block;
+              padding: 2px 0;
+              text-decoration: none;
+              font-family: "RobotoRegular", Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 20px;
+              letter-spacing: -0.005em; }
+              .footer footer .footer__menu ul li a:hover {
+                color: #111;
+                transition-delay: 100ms;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+      .footer footer .footer__logo_designed {
+        text-align: center;
+        margin-top: 17px;
+        margin-right: 30px;
+        float: right; }
+        .footer footer .footer__logo_designed a {
+          letter-spacing: 0.05em;
+          text-decoration: none; }
+          .footer footer .footer__logo_designed a p {
+            color: #ccc;
+            text-transform: uppercase;
+            font-family: "MontSerratRegular", Arial, sans-serif;
+            font-size: 10px;
+            font-weight: 700;
+            text-indent: 35px; }
+          .footer footer .footer__logo_designed a img {
+            margin-top: 10px;
+            margin-left: 4px; } }
+/* ---------------------------------END OF FOOTER 768---------------------*/
