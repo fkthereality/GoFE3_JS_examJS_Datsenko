@@ -95,14 +95,14 @@ function fillHTML (arrImg, arrWord, txt) {
  }
 
 
-$('#search_img').on('dblclick', function (event) {
+$('#search__input').on('dblclick', function (event) {
 	event.preventDefault();
 	var word = $(this).val();
 	searchPixabay(word);
 });
 
 
-$('#search_img').keydown(function (event) {
+$('#search__input').keydown(function (event) {
 
 	if (event.keyCode == 13) {
 		var word = $(this).val();
@@ -111,8 +111,8 @@ $('#search_img').keydown(function (event) {
 	}
 });
 
-$( '#search_submit').click(function( event ) {
-    var word = $('#search_img').val();
+$( '#search__button').click(function( event ) {
+    var word = $('#search__input').val();
 	searchPixabay(word);
     event.preventDefault();
 });
