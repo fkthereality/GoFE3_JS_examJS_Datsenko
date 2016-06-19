@@ -1,3 +1,4 @@
+/* ---------------------------------RESET---------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -45,6 +46,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* ---------------------------------END OF RESET---------------------*/
+/* ---------------------------------VARIABLE---------------------*/
+/* ---------------------------------END OF VARIABLE---------------------*/
+/* ---------------------------------FONTS---------------------*/
 @font-face {
   font-family: 'MontSerratRegular';
   src: url("../../fonts/MontSerrat/montserrat-regular-webfont.woff2") format("woff2"), url("../../fonts/MontSerrat/montserrat-regular-webfont.woff") format("woff");
@@ -55,6 +60,8 @@ table {
   src: url("../../fonts/Roboto/roboto-regular-webfont.woff2") format("woff2"), url("../../fonts/Roboto/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+/* ---------------------------------END OF FONTS---------------------*/
+/* ---------------------------------HEADER 1440---------------------*/
 @media screen and (min-width: 1440px) {
   body {
     background-color: #fff; }
@@ -141,6 +148,8 @@ table {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF HEADER 1440---------------------*/
+/* ---------------------------------SLIDER 1440---------------------*/
 @media screen and (min-width: 1440px) {
   .slider_wrapper {
     width: 960px;
@@ -275,6 +284,8 @@ table {
 
   .bx-next:hover {
     background-position: -33px -58px; } }
+/* ---------------------------------END OF SLIDER 1440---------------------*/
+/* ---------------------------------MEET 1440---------------------*/
 @media screen and (min-width: 1440px) {
   .meet {
     width: 940px;
@@ -374,6 +385,8 @@ table {
         box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
         cursor: pointer;
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MEET 1440---------------------*/
+/* ---------------------------------MASONRY 1440---------------------*/
 @media screen and (min-width: 1440px) {
   .gallery {
     width: 940px;
@@ -474,6 +487,8 @@ table {
     display: block;
     float: left;
     margin: 40px 10px 20px; } }
+/* ---------------------------------END OF MASONRY 1440---------------------*/
+/* ---------------------------------FOOTER 1440---------------------*/
 @media screen and (min-width: 1440px) {
   .footer {
     width: 100%;
@@ -545,6 +560,8 @@ table {
           .footer footer .footer__logo_designed a img {
             margin-top: 10px;
             margin-left: 4px; } }
+/* ---------------------------------END OF FOOTER 1440---------------------*/
+/* ---------------------------------HEADER 320---------------------*/
 @media screen and (max-width: 767px) {
   body {
     background-color: #FFF; }
@@ -628,6 +645,8 @@ table {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF HEADER 320---------------------*/
+/* ---------------------------------SLIDER 320---------------------*/
 @media screen and (max-width: 767px) {
   .slider_wrapper {
     width: 320px;
@@ -759,6 +778,8 @@ table {
 .bx-wrapper {
   height: 240px; }
 
+/* ---------------------------------END OF SLIDER 320---------------------*/
+/* ---------------------------------MEET 320---------------------*/
 @media screen and (max-width: 767px) {
   .meet {
     width: 320px;
@@ -855,6 +876,8 @@ table {
           box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
           cursor: pointer;
           text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MEET 320---------------------*/
+/* ---------------------------------MASONRY 320---------------------*/
 @media screen and (max-width: 767px) {
   .gallery {
     width: 320px;
@@ -971,6 +994,8 @@ table {
   #search_submit:hover {
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MASONRY 320---------------------*/
+/* ---------------------------------SEARCH 320---------------------*/
 @media screen and (max-width: 767px) {
   .form_section {
     height: 200px;
@@ -1033,6 +1058,8 @@ table {
     #search_submit:hover {
       box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
       text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF SEARCH 320---------------------*/
+/* ---------------------------------FOOTER 320---------------------*/
 @media screen and (max-width: 767px) {
   .footer {
     width: 100%;
@@ -1101,6 +1128,8 @@ table {
       .footer__logo_designed a img {
         margin-top: 8px;
         margin-left: 2px; } }
+/* ---------------------------------END OF FOOTER 320---------------------*/
+/* ---------------------------------HEADER 768---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   body {
     background-color: #fff; }
@@ -1184,6 +1213,8 @@ table {
           cursor: pointer;
           box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
           text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF HEADER 768---------------------*/
+/* ---------------------------------SLIDER 768---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .slider_wrapper {
     width: 768px;
@@ -1323,6 +1354,8 @@ table {
 
   .bx-next:hover {
     background-position: -33px -58px; } }
+/* ---------------------------------END OF SLIDER 768---------------------*/
+/* ---------------------------------MEET 768---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .meet {
     width: 768px;
@@ -1420,6 +1453,8 @@ table {
         box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
         cursor: pointer;
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); } }
+/* ---------------------------------END OF MEET 768---------------------*/
+/* ---------------------------------MASONRY 768---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .gallery {
     width: 768px;
@@ -1520,6 +1555,8 @@ table {
     display: block;
     float: left;
     margin: 40px 10px 20px; } }
+/* ---------------------------------END OF MASONRY 768---------------------*/
+/* ---------------------------------FOOTER 768---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .footer {
     width: 100%;
@@ -1594,3 +1631,4 @@ table {
           .footer footer .footer__logo_designed a img {
             margin-top: 10px;
             margin-left: 4px; } }
+/* ---------------------------------END OF FOOTER 768---------------------*/
