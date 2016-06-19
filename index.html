@@ -43,7 +43,7 @@
       <h3 class="slider__header">How Urlaubsglück works?</h3>
     </header>
       <div class="slider slider_step-1" >
-        <ul class="bxslider">
+        <ul class="slider__images">
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
@@ -70,7 +70,7 @@
 
 
       <div class="slider slider_step-2">
-        <ul class="bxslider">
+        <ul class="slider__images">
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
@@ -96,7 +96,7 @@
 
 
       <div class="third-slider slider">
-        <ul class="bxslider">
+        <ul class="slider__images">
           <li><img src="dist/img/slider-img3.jpg" alt=""></li>
           <li><img src="dist/img/slider-img1.jpg" alt=""></li>
           <li><img src="dist/img/slider-img2.jpg" alt=""></li>
@@ -123,10 +123,11 @@
     </div>
 
 
+      
 
     <div class="meeting">
     <header>
-      <h3 class="slider__header">Meet a partner for your best holiday</h3>
+      <h3 class="meeting__headline">Meet a partner for your best holiday</h3>
 	</header>
     <a href="#">
       <div class="meeting__partner partner-1" >
@@ -231,7 +232,7 @@
 
   <script type="text/javascript">
   $(document).ready(function(){
-    $('.bxslider').bxSlider({
+    $('.slider__images').slider__images({
       speed: 300,
       pager: false
     });
